@@ -1,214 +1,262 @@
 fileFormatVersion: 2
-guid: 9561bfac41c004537910d05528dc19d0
+guid: f7fb6a11fec6c46838f9c71e94537942
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2638047369356232621
-    second: kitchens_assembled_0
+      213: 4814174900066042786
+    second: Bob_16x16_0
   - first:
-      213: -5275845471909640671
-    second: kitchens_assembled_1
+      213: 7518704680935207466
+    second: Bob_16x16_1
   - first:
-      213: 8468143412021332448
-    second: kitchens_assembled_2
+      213: -3475212710948970362
+    second: Bob_16x16_2
   - first:
-      213: -1104351973781282093
-    second: kitchens_assembled_3
+      213: -2250542485028693144
+    second: Bob_16x16_3
   - first:
-      213: -3492383312244791255
-    second: kitchens_assembled_4
+      213: -4985855188452541774
+    second: Bob_16x16_4
   - first:
-      213: 2111831859511078508
-    second: kitchens_assembled_5
+      213: 2662616376324151052
+    second: Bob_16x16_5
   - first:
-      213: 6499495982555028256
-    second: kitchens_assembled_6
+      213: 7154678909165692719
+    second: Bob_16x16_6
   - first:
-      213: 7836355952716861507
-    second: kitchens_assembled_7
+      213: -1106581146231554366
+    second: Bob_16x16_7
   - first:
-      213: 2166127737951358232
-    second: kitchens_assembled_8
+      213: 2431457482143533408
+    second: Bob_16x16_8
   - first:
-      213: -5932994112998051012
-    second: kitchens_assembled_9
+      213: -7470721806470891774
+    second: Bob_16x16_9
   - first:
-      213: 6639881128884675486
-    second: kitchens_assembled_10
+      213: -7782559721818381375
+    second: Bob_16x16_10
   - first:
-      213: -5653869694113244861
-    second: kitchens_assembled_11
+      213: -6442273348698178902
+    second: Bob_16x16_11
   - first:
-      213: -377514718145355291
-    second: kitchens_assembled_12
+      213: -2074081709479179410
+    second: Bob_16x16_12
   - first:
-      213: -7265496478388603851
-    second: kitchens_assembled_13
+      213: -1513599457474397295
+    second: Bob_16x16_13
   - first:
-      213: 6139391192733888879
-    second: kitchens_assembled_14
+      213: -1584904881442567888
+    second: Bob_16x16_14
   - first:
-      213: -5388886083443633257
-    second: kitchens_assembled_15
+      213: 7492122707722258523
+    second: Bob_16x16_15
   - first:
-      213: -6840335765171237640
-    second: kitchens_assembled_16
+      213: 8759807573774835638
+    second: Bob_16x16_16
   - first:
-      213: -4606783417552115330
-    second: kitchens_assembled_17
+      213: -8627275595603811638
+    second: Bob_16x16_17
   - first:
-      213: -5664290640651049770
-    second: kitchens_assembled_18
+      213: -592805280626681629
+    second: Bob_16x16_18
   - first:
-      213: -4869055554361783730
-    second: kitchens_assembled_19
+      213: 7842135796858146163
+    second: Bob_16x16_19
   - first:
-      213: -4649223538466402110
-    second: kitchens_assembled_20
+      213: 7959826173742549967
+    second: Bob_16x16_20
   - first:
-      213: 8116300667756717857
-    second: kitchens_assembled_21
+      213: 2527778430087307335
+    second: Bob_16x16_21
   - first:
-      213: 8703573478175146936
-    second: kitchens_assembled_22
+      213: -1517826890002261376
+    second: Bob_16x16_22
   - first:
-      213: 2681329244329779972
-    second: kitchens_assembled_23
+      213: 6253052274360645203
+    second: Bob_16x16_23
   - first:
-      213: 408580730912274843
-    second: kitchens_assembled_24
+      213: -2858863210561761802
+    second: Bob_16x16_24
   - first:
-      213: 7154195480710971541
-    second: kitchens_assembled_25
+      213: -6661170673283458769
+    second: Bob_16x16_25
   - first:
-      213: -8742160848098136996
-    second: kitchens_assembled_26
+      213: -3501426209007841254
+    second: Bob_16x16_26
   - first:
-      213: -962514026009614592
-    second: kitchens_assembled_27
+      213: -3627897488192626098
+    second: Bob_16x16_27
   - first:
-      213: -9022657267987328887
-    second: kitchens_assembled_28
+      213: 8201994067042276111
+    second: Bob_16x16_28
   - first:
-      213: 3667201575101389730
-    second: kitchens_assembled_29
+      213: -2608793922320640467
+    second: Bob_16x16_29
   - first:
-      213: 1118002964914803769
-    second: kitchens_assembled_30
+      213: -135156480586389756
+    second: Bob_16x16_30
   - first:
-      213: 5251991999770760546
-    second: kitchens_assembled_31
+      213: 6277049835357365327
+    second: Bob_16x16_31
   - first:
-      213: -9155623769060543074
-    second: kitchens_assembled_32
+      213: -9044681293474898395
+    second: Bob_16x16_32
   - first:
-      213: 8910870996648036088
-    second: kitchens_assembled_33
+      213: 3063389790430817304
+    second: Bob_16x16_33
   - first:
-      213: -339784099924135694
-    second: kitchens_assembled_34
+      213: -6843964324631609121
+    second: Bob_16x16_34
   - first:
-      213: -3059411126894472655
-    second: kitchens_assembled_35
+      213: 4017033080048807419
+    second: Bob_16x16_35
   - first:
-      213: -3474908165781298240
-    second: kitchens_assembled_36
+      213: 5299630151064097531
+    second: Bob_16x16_36
   - first:
-      213: -991570453287526229
-    second: kitchens_assembled_37
+      213: 2132176148194285814
+    second: Bob_16x16_37
   - first:
-      213: 7883484662827293791
-    second: kitchens_assembled_38
+      213: 3511314445396609950
+    second: Bob_16x16_38
   - first:
-      213: -7182080454946438106
-    second: kitchens_assembled_39
+      213: 3701293330350663401
+    second: Bob_16x16_39
   - first:
-      213: -3980778082643915493
-    second: kitchens_assembled_40
+      213: 6432446036264313433
+    second: Bob_16x16_40
   - first:
-      213: -3746350820909762168
-    second: kitchens_assembled_41
+      213: -8796565481576202474
+    second: Bob_16x16_41
   - first:
-      213: -5768487821452457536
-    second: kitchens_assembled_42
+      213: 1038370020618633304
+    second: Bob_16x16_42
   - first:
-      213: -1101748150891970295
-    second: kitchens_assembled_43
+      213: -6309389050339969201
+    second: Bob_16x16_43
   - first:
-      213: 1067008531461602952
-    second: kitchens_assembled_44
+      213: 7053402839734852964
+    second: Bob_16x16_44
   - first:
-      213: 5432813108854716949
-    second: kitchens_assembled_45
+      213: 5020137506623132976
+    second: Bob_16x16_45
   - first:
-      213: 581490697736144817
-    second: kitchens_assembled_46
+      213: 3164538817406609379
+    second: Bob_16x16_46
   - first:
-      213: 2087638419598495576
-    second: kitchens_assembled_47
+      213: 4242808088051999668
+    second: Bob_16x16_47
   - first:
-      213: -2854627154609201305
-    second: kitchens_assembled_48
+      213: 7332454978222993831
+    second: Bob_16x16_48
   - first:
-      213: -1900961080371493469
-    second: kitchens_assembled_49
+      213: -2152355982086905427
+    second: Bob_16x16_49
   - first:
-      213: 1179197874284900174
-    second: kitchens_assembled_50
+      213: 8742650644003709165
+    second: Bob_16x16_50
   - first:
-      213: -1752852950298441332
-    second: kitchens_assembled_51
+      213: -9102839917010348568
+    second: Bob_16x16_51
   - first:
-      213: -3716066409238358473
-    second: kitchens_assembled_52
+      213: 499093265978087169
+    second: Bob_16x16_52
   - first:
-      213: 2448388555148523725
-    second: kitchens_assembled_53
+      213: -6208716609705546565
+    second: Bob_16x16_53
   - first:
-      213: 5961648953590343331
-    second: kitchens_assembled_54
+      213: 2275298108751582877
+    second: Bob_16x16_54
   - first:
-      213: -6640038005928314581
-    second: kitchens_assembled_55
+      213: -2354603498541357174
+    second: Bob_16x16_55
   - first:
-      213: 7079754380337129824
-    second: kitchens_assembled_56
+      213: -141707080049838127
+    second: Bob_16x16_56
   - first:
-      213: 4077980941823721580
-    second: kitchens_assembled_57
+      213: 4717926618774406544
+    second: Bob_16x16_57
   - first:
-      213: 3363132483740028293
-    second: kitchens_assembled_58
+      213: -4221756063167383348
+    second: Bob_16x16_58
   - first:
-      213: 6185899970994053769
-    second: kitchens_assembled_59
+      213: -4690320932950771689
+    second: Bob_16x16_59
   - first:
-      213: 6354462221076623336
-    second: kitchens_assembled_60
+      213: 8139842035894017184
+    second: Bob_16x16_60
   - first:
-      213: -4610480287865164514
-    second: kitchens_assembled_61
+      213: -9142322023240365145
+    second: Bob_16x16_61
   - first:
-      213: 1371423641316087915
-    second: kitchens_assembled_62
+      213: -453056528169397472
+    second: Bob_16x16_62
   - first:
-      213: 739232456021612008
-    second: kitchens_assembled_63
+      213: -5416016975300709528
+    second: Bob_16x16_63
   - first:
-      213: 197265334536144829
-    second: kitchens_assembled_64
+      213: -157420022346089258
+    second: Bob_16x16_64
   - first:
-      213: -3493653481323876925
-    second: kitchens_assembled_65
+      213: -467652012538006768
+    second: Bob_16x16_65
   - first:
-      213: 3532140803175802184
-    second: kitchens_assembled_66
+      213: 8087208356566638863
+    second: Bob_16x16_66
   - first:
-      213: -2973268271670344222
-    second: kitchens_assembled_67
+      213: 2393334461712887801
+    second: Bob_16x16_67
   - first:
-      213: 2419956099780905185
-    second: kitchens_assembled_68
+      213: -6001459925540759656
+    second: Bob_16x16_68
+  - first:
+      213: -7117115614142616802
+    second: Bob_16x16_69
+  - first:
+      213: 1782825073658831062
+    second: Bob_16x16_70
+  - first:
+      213: 6139805230667873569
+    second: Bob_16x16_71
+  - first:
+      213: 1615920734111714616
+    second: Bob_16x16_72
+  - first:
+      213: 4176999496969919209
+    second: Bob_16x16_73
+  - first:
+      213: -1395537016811800446
+    second: Bob_16x16_74
+  - first:
+      213: 9005381523629612578
+    second: Bob_16x16_75
+  - first:
+      213: 5179343276047710972
+    second: Bob_16x16_76
+  - first:
+      213: -143986510232533480
+    second: Bob_16x16_77
+  - first:
+      213: 2364661800137333328
+    second: Bob_16x16_78
+  - first:
+      213: 3808337185902038931
+    second: Bob_16x16_79
+  - first:
+      213: -9095194913766300631
+    second: Bob_16x16_80
+  - first:
+      213: 8815144918014868446
+    second: Bob_16x16_81
+  - first:
+      213: 9038686629537727365
+    second: Bob_16x16_82
+  - first:
+      213: -7827086763247664996
+    second: Bob_16x16_83
+  - first:
+      213: 630614842298846944
+    second: Bob_16x16_84
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -317,13 +365,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kitchens_assembled_0
+      name: Bob_16x16_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 166
-        width: 33
-        height: 21
+        y: 191
+        width: 15
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,702 +380,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3583ed005e5c36bd0800000000000000
-      internalID: -2638047369356232621
+      spriteID: 2a3c905a0926fc240800000000000000
+      internalID: 4814174900066042786
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 143
-        width: 120
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12609f4fe7e68c6b0800000000000000
-      internalID: -5275845471909640671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 167
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e9889c2193e48570800000000000000
-      internalID: 8468143412021332448
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_3
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 167
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d2e3cf1bbd8ca0f0800000000000000
-      internalID: -1104351973781282093
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_4
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 143
-        width: 121
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 928a52681ef888fc0800000000000000
-      internalID: -3492383312244791255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_5
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 166
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6ea28323ebbe4d10800000000000000
-      internalID: 2111831859511078508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_6
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 167
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 02b554b0929d23a50800000000000000
-      internalID: 6499495982555028256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_7
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 167
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 340d43f583450cc60800000000000000
-      internalID: 7836355952716861507
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_8
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 143
-        width: 112
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 81d06b673b1af0e10800000000000000
-      internalID: 2166127737951358232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_9
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 166
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c337440e945c9ada0800000000000000
-      internalID: -5932994112998051012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_10
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 167
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e93adf505b8952c50800000000000000
-      internalID: 6639881128884675486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_11
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 167
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 349980cf77b6981b0800000000000000
-      internalID: -5653869694113244861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_12
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 143
-        width: 112
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e1e67f2d5cc2caf0800000000000000
-      internalID: -377514718145355291
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_13
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 166
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 534bbc87275cb2b90800000000000000
-      internalID: -7265496478388603851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_14
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 167
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f61b01c03cf733550800000000000000
-      internalID: 6139391192733888879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 118
-        width: 33
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 793db4d98a4d635b0800000000000000
-      internalID: -5388886083443633257
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 95
-        width: 128
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fc819cfcde3211a0800000000000000
-      internalID: -6840335765171237640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_17
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 119
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7965a7b3ea6110c0800000000000000
-      internalID: -4606783417552115330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_18
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 119
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6d4ac6b4ca56461b0800000000000000
-      internalID: -5664290640651049770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_19
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 95
-        width: 129
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e4a8f9a45c3ad6cb0800000000000000
-      internalID: -4869055554361783730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_20
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 118
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c0535c03d3aa7fb0800000000000000
-      internalID: -4649223538466402110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_21
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 119
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 127a7ef8474e2a070800000000000000
-      internalID: 8116300667756717857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_22
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 119
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8b3042307fd49c870800000000000000
-      internalID: 8703573478175146936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_23
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 95
-        width: 120
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 403a42ecdbef53520800000000000000
-      internalID: 2681329244329779972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_24
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 118
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b99781092029ba500800000000000000
-      internalID: 408580730912274843
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_25
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 119
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5908b7992eec84360800000000000000
-      internalID: 7154195480710971541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_26
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 119
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5c68cfc60b9da680800000000000000
-      internalID: -8742160848098136996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_27
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 95
-        width: 120
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 007ad5cc79674a2f0800000000000000
-      internalID: -962514026009614592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_28
-      rect:
-        serializedVersion: 2
-        x: 415
-        y: 118
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 980d483d40519c280800000000000000
-      internalID: -9022657267987328887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_29
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 119
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2abdba3276484e230800000000000000
-      internalID: 3667201575101389730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_30
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 71
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 934949de5c1f38f00800000000000000
-      internalID: 1118002964914803769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_31
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 47
-        width: 112
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2659785c5e2d2e840800000000000000
-      internalID: 5251991999770760546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_32
+      name: Bob_16x16_1
       rect:
         serializedVersion: 2
         x: 15
-        y: 70
+        y: 191
         width: 18
-        height: 21
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1036,20 +402,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e95f50cc0b0b0f080800000000000000
-      internalID: -9155623769060543074
+      spriteID: a22b53e421ec75860800000000000000
+      internalID: 7518704680935207466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_33
+      name: Bob_16x16_2
       rect:
         serializedVersion: 2
         x: 33
-        y: 71
-        width: 31
-        height: 18
+        y: 191
+        width: 15
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1058,20 +424,482 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8f6898aa5f5c9ab70800000000000000
-      internalID: 8910870996648036088
+      spriteID: 680e6fca37095cfc0800000000000000
+      internalID: -3475212710948970362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_34
+      name: Bob_16x16_3
       rect:
         serializedVersion: 2
-        x: 127
-        y: 71
+        x: 47
+        y: 191
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b90f3a88774c0e0800000000000000
+      internalID: -2250542485028693144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba7fbe4f1faecab0800000000000000
+      internalID: -4985855188452541774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0750f3bc7383f420800000000000000
+      internalID: 2662616376324151052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 159
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27ecce8f868a4360800000000000000
+      internalID: 7154678909165692719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 159
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce39b77f42a4a0f0800000000000000
+      internalID: -1106581146231554366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 159
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06981a592b54eb120800000000000000
+      internalID: 2431457482143533408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 159
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207b98d391aa25890800000000000000
+      internalID: -7470721806470891774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_10
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 159
+        width: 98
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3a0c1ba2bcef390800000000000000
+      internalID: -7782559721818381375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_11
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 159
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaaf0e0a5827896a0800000000000000
+      internalID: -6442273348698178902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_12
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 159
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6bcb579ca16733e0800000000000000
+      internalID: -2074081709479179410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_13
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 159
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bb305105d9efae0800000000000000
+      internalID: -1513599457474397295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_14
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 159
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03945d25869410ae0800000000000000
+      internalID: -1584904881442567888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_15
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 159
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b584c6f58ed59f760800000000000000
+      internalID: 7492122707722258523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 159
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf10afa396119970800000000000000
+      internalID: 8759807573774835638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_17
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 159
+        width: 97
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac263a81e82c54880800000000000000
+      internalID: -8627275595603811638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e85543fcbee5c7f0800000000000000
+      internalID: -592805280626681629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dca1435fcd4dc60800000000000000
+      internalID: 7842135796858146163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 127
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb08c76bbbf67e60800000000000000
+      internalID: 7959826173742549967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_21
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 127
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740af34e619741320800000000000000
+      internalID: 2527778430087307335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a11ee3c789feae0800000000000000
+      internalID: -1517826890002261376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_23
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 127
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356f637d9ed47c650800000000000000
+      internalID: 6253052274360645203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 127
         width: 17
-        height: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1080,20 +908,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f032bf4928d84bf0800000000000000
-      internalID: -339784099924135694
+      spriteID: 6fd88019e074358d0800000000000000
+      internalID: -2858863210561761802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_35
+      name: Bob_16x16_25
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 127
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2990b6a094ce83a0800000000000000
+      internalID: -6661170673283458769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_26
       rect:
         serializedVersion: 2
         x: 127
-        y: 47
-        width: 113
-        height: 34
+        y: 127
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1102,328 +952,1032 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 132d39f1ac9ca85d0800000000000000
-      internalID: -3059411126894472655
+      spriteID: a1058dc0a6f686fc0800000000000000
+      internalID: -3501426209007841254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_36
+      name: Bob_16x16_27
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 127
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e422fb6b47e17adc0800000000000000
+      internalID: -3627897488192626098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_28
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 127
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f039aefd52653d170800000000000000
+      internalID: 8201994067042276111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 127
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2651e7efb3bbcbd0800000000000000
+      internalID: -2608793922320640467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 127
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4076e81a5e3df1ef0800000000000000
+      internalID: -135156480586389756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4466e9619f8c1750800000000000000
+      internalID: 6277049835357365327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_32
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 127
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52edecbc846da7280800000000000000
+      internalID: -9044681293474898395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_33
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 127
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81cef2ba8c8538a20800000000000000
+      internalID: 3063389790430817304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_34
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 128
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd003e625ba5501a0800000000000000
+      internalID: -6843964324631609121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_35
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 127
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd6d4b9d4e5fb730800000000000000
+      internalID: 4017033080048807419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_36
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf210233b811c8940800000000000000
+      internalID: 5299630151064097531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_37
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 127
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f85ea7f8e2079d10800000000000000
+      internalID: 2132176148194285814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b009462e1bab030800000000000000
+      internalID: 3511314445396609950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_39
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 127
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6e2157ca2ad5330800000000000000
+      internalID: 3701293330350663401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_40
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 128
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9526764e693a44950800000000000000
+      internalID: 6432446036264313433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_41
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61fff2bfc425ce580800000000000000
+      internalID: -8796565481576202474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_42
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 96
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85083604808096e00800000000000000
+      internalID: 1038370020618633304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_43
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 96
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f473fb8561c8078a0800000000000000
+      internalID: -6309389050339969201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_44
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d90202388b2e160800000000000000
+      internalID: 7053402839734852964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_45
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 96
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03513e5e67c1ba540800000000000000
+      internalID: 5020137506623132976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_46
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 96
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7a479b943baeb20800000000000000
+      internalID: 3164538817406609379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_47
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 96
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b36e7a0a7b71ea30800000000000000
+      internalID: 4242808088051999668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_48
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 96
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1b68424fc12c560800000000000000
+      internalID: 7332454978222993831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_49
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 96
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1e58153ab4122e0800000000000000
+      internalID: -2152355982086905427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_50
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 96
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de06e2fa072245970800000000000000
+      internalID: 8742650644003709165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_51
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 96
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e51a5b03573ca180800000000000000
+      internalID: -9102839917010348568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_52
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 96
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107d96c5ea22de600800000000000000
+      internalID: 499093265978087169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_53
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcee6f732536d9a0800000000000000
+      internalID: -6208716609705546565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 70
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d96914a239b739f10800000000000000
+      internalID: 2275298108751582877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_55
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 70
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87ec82e794c25fd0800000000000000
+      internalID: -2354603498541357174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_56
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 70
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7b877592e880ef0800000000000000
+      internalID: -141707080049838127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_57
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 70
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095886c5341797140800000000000000
+      internalID: 4717926618774406544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_58
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 70
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc87e867a3f4965c0800000000000000
+      internalID: -4221756063167383348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_59
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 70
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718f3ec36f1a8eeb0800000000000000
+      internalID: -4690320932950771689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_60
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 70
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac5145743786f070800000000000000
+      internalID: 8139842035894017184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_61
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 70
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab0786de82ff1180800000000000000
+      internalID: -9142322023240365145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_62
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 70
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0239a4fec7b66b9f0800000000000000
+      internalID: -453056528169397472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_63
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 70
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86337b9914176d4b0800000000000000
+      internalID: -5416016975300709528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_64
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 70
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcf68fd25bb0ddf0800000000000000
+      internalID: -157420022346089258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013fc2ae8f09289f0800000000000000
+      internalID: -467652012538006768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_66
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01a9b507298b3070800000000000000
+      internalID: 8087208356566638863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_67
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffe8133305d63120800000000000000
+      internalID: 2393334461712887801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_68
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 32
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897966caef786bca0800000000000000
+      internalID: -6001459925540759656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_69
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ba4a99e0dea3d90800000000000000
+      internalID: -7117115614142616802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_70
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 32
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0281c65fdddb810800000000000000
+      internalID: 1782825073658831062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_71
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d3b04c358f43550800000000000000
+      internalID: 6139805230667873569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_72
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 32
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83dcaed9857ec6610800000000000000
+      internalID: 1615920734111714616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_73
       rect:
         serializedVersion: 2
         x: 143
-        y: 70
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c3608f1f65a6cfc0800000000000000
-      internalID: -3474908165781298240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_37
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 71
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba026022deb3d32f0800000000000000
-      internalID: -991570453287526229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_38
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 71
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5c9f084883c76d60800000000000000
-      internalID: 7883484662827293791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_39
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 47
-        width: 113
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 62444a6e0ef145c90800000000000000
-      internalID: -7182080454946438106
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_40
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 70
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b1d4956cc6f61c8c0800000000000000
-      internalID: -3980778082643915493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_41
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 71
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8893ea307c9420cc0800000000000000
-      internalID: -3746350820909762168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_42
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 71
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0c9c82f93e632ffa0800000000000000
-      internalID: -5768487821452457536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_43
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 47
-        width: 113
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9010422e4edc5b0f0800000000000000
-      internalID: -1101748150891970295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_44
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 70
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 88e741a2b96cece00800000000000000
-      internalID: 1067008531461602952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_45
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 71
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 51afe5cfcba356b40800000000000000
-      internalID: 5432813108854716949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_46
-      rect:
-        serializedVersion: 2
-        x: 495
-        y: 71
-        width: 17
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b7c1ce65bed11800800000000000000
-      internalID: 581490697736144817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_47
-      rect:
-        serializedVersion: 2
-        x: 495
-        y: 47
-        width: 113
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 85f40a3f418c8fc10800000000000000
-      internalID: 2087638419598495576
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_48
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 70
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 76f95533ab35268d0800000000000000
-      internalID: -2854627154609201305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_49
-      rect:
-        serializedVersion: 2
-        x: 529
-        y: 71
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3a54d9818fd6e95e0800000000000000
-      internalID: -1900961080371493469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_50
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 23
+        y: 32
         width: 16
-        height: 18
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1432,86 +1986,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4fa5a0183a5d5010800000000000000
-      internalID: 1179197874284900174
+      spriteID: 9ea90eb69eea7f930800000000000000
+      internalID: 4176999496969919209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_51
+      name: Bob_16x16_74
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28836022a7e02ace0800000000000000
+      internalID: -1395537016811800446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_75
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 32
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e1fce78ca89fc70800000000000000
+      internalID: 9005381523629612578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_76
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 112
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c8947f9578d9ca7e0800000000000000
-      internalID: -1752852950298441332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_52
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 22
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 73616931a41ed6cc0800000000000000
-      internalID: -3716066409238358473
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_53
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 23
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dc872c53b6c6af120800000000000000
-      internalID: 2448388555148523725
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_54
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 23
         width: 17
-        height: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1520,64 +2052,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a6e45a13280cb250800000000000000
-      internalID: 5961648953590343331
+      spriteID: cfab1aaa449b0e740800000000000000
+      internalID: 5179343276047710972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_55
+      name: Bob_16x16_77
       rect:
         serializedVersion: 2
-        x: 127
+        x: 16
         y: 0
-        width: 113
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b29bc813d98d9d3a0800000000000000
-      internalID: -6640038005928314581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_56
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 23
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 069a2094917504260800000000000000
-      internalID: 7079754380337129824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_57
-      rect:
-        serializedVersion: 2
-        x: 255
-        y: 23
         width: 17
-        height: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1586,86 +2074,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c60473e7f06e79830800000000000000
-      internalID: 4077980941823721580
+      spriteID: 81644252805700ef0800000000000000
+      internalID: -143986510232533480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_58
+      name: Bob_16x16_78
       rect:
         serializedVersion: 2
-        x: 255
+        x: 32
         y: 0
-        width: 113
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 58dc6e1ec2f3cae20800000000000000
-      internalID: 3363132483740028293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_59
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 22
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9822333df3bb8d550800000000000000
-      internalID: 6185899970994053769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_60
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 23
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8ef69e109b59f2850800000000000000
-      internalID: 6354462221076623336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_61
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 23
         width: 17
-        height: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1674,86 +2096,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e1d2bd50b984400c0800000000000000
-      internalID: -4610480287865164514
+      spriteID: 05a1f13f067f0d020800000000000000
+      internalID: 2364661800137333328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_62
+      name: Bob_16x16_79
       rect:
         serializedVersion: 2
-        x: 383
+        x: 48
         y: 0
-        width: 113
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b68d7312986480310800000000000000
-      internalID: 1371423641316087915
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_63
-      rect:
-        serializedVersion: 2
-        x: 399
-        y: 22
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e59b9b8008424a00800000000000000
-      internalID: 739232456021612008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_64
-      rect:
-        serializedVersion: 2
-        x: 417
-        y: 23
-        width: 31
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db7868fc6c3dcb200800000000000000
-      internalID: 197265334536144829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: kitchens_assembled_65
-      rect:
-        serializedVersion: 2
-        x: 495
-        y: 23
         width: 17
-        height: 18
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1762,20 +2118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cd226d3bac048fc0800000000000000
-      internalID: -3493653481323876925
+      spriteID: 39f0a9e3e7ee9d430800000000000000
+      internalID: 3808337185902038931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_66
+      name: Bob_16x16_80
       rect:
         serializedVersion: 2
-        x: 495
+        x: 64
         y: 0
-        width: 113
-        height: 33
+        width: 17
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1784,20 +2140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 845e4fda85fa40130800000000000000
-      internalID: 3532140803175802184
+      spriteID: 92425021a6067c180800000000000000
+      internalID: -9095194913766300631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_67
+      name: Bob_16x16_81
       rect:
         serializedVersion: 2
-        x: 511
-        y: 22
-        width: 18
-        height: 21
+        x: 80
+        y: 0
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1806,20 +2162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2e5462d8244dcb6d0800000000000000
-      internalID: -2973268271670344222
+      spriteID: edbbdd9299fa55a70800000000000000
+      internalID: 8815144918014868446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kitchens_assembled_68
+      name: Bob_16x16_82
       rect:
         serializedVersion: 2
-        x: 529
-        y: 23
-        width: 31
-        height: 18
+        x: 96
+        y: 0
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1828,8 +2184,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e80b735049659120800000000000000
-      internalID: 2419956099780905185
+      spriteID: 5834badb99ddf6d70800000000000000
+      internalID: 9038686629537727365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_83
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90067afe0a906390800000000000000
+      internalID: -7827086763247664996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bob_16x16_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eecf41abd460c800800000000000000
+      internalID: 630614842298846944
       vertices: []
       indices: 
       edges: []
@@ -1847,76 +2247,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      kitchens_assembled_0: -2638047369356232621
-      kitchens_assembled_1: -5275845471909640671
-      kitchens_assembled_10: 6639881128884675486
-      kitchens_assembled_11: -5653869694113244861
-      kitchens_assembled_12: -377514718145355291
-      kitchens_assembled_13: -7265496478388603851
-      kitchens_assembled_14: 6139391192733888879
-      kitchens_assembled_15: -5388886083443633257
-      kitchens_assembled_16: -6840335765171237640
-      kitchens_assembled_17: -4606783417552115330
-      kitchens_assembled_18: -5664290640651049770
-      kitchens_assembled_19: -4869055554361783730
-      kitchens_assembled_2: 8468143412021332448
-      kitchens_assembled_20: -4649223538466402110
-      kitchens_assembled_21: 8116300667756717857
-      kitchens_assembled_22: 8703573478175146936
-      kitchens_assembled_23: 2681329244329779972
-      kitchens_assembled_24: 408580730912274843
-      kitchens_assembled_25: 7154195480710971541
-      kitchens_assembled_26: -8742160848098136996
-      kitchens_assembled_27: -962514026009614592
-      kitchens_assembled_28: -9022657267987328887
-      kitchens_assembled_29: 3667201575101389730
-      kitchens_assembled_3: -1104351973781282093
-      kitchens_assembled_30: 1118002964914803769
-      kitchens_assembled_31: 5251991999770760546
-      kitchens_assembled_32: -9155623769060543074
-      kitchens_assembled_33: 8910870996648036088
-      kitchens_assembled_34: -339784099924135694
-      kitchens_assembled_35: -3059411126894472655
-      kitchens_assembled_36: -3474908165781298240
-      kitchens_assembled_37: -991570453287526229
-      kitchens_assembled_38: 7883484662827293791
-      kitchens_assembled_39: -7182080454946438106
-      kitchens_assembled_4: -3492383312244791255
-      kitchens_assembled_40: -3980778082643915493
-      kitchens_assembled_41: -3746350820909762168
-      kitchens_assembled_42: -5768487821452457536
-      kitchens_assembled_43: -1101748150891970295
-      kitchens_assembled_44: 1067008531461602952
-      kitchens_assembled_45: 5432813108854716949
-      kitchens_assembled_46: 581490697736144817
-      kitchens_assembled_47: 2087638419598495576
-      kitchens_assembled_48: -2854627154609201305
-      kitchens_assembled_49: -1900961080371493469
-      kitchens_assembled_5: 2111831859511078508
-      kitchens_assembled_50: 1179197874284900174
-      kitchens_assembled_51: -1752852950298441332
-      kitchens_assembled_52: -3716066409238358473
-      kitchens_assembled_53: 2448388555148523725
-      kitchens_assembled_54: 5961648953590343331
-      kitchens_assembled_55: -6640038005928314581
-      kitchens_assembled_56: 7079754380337129824
-      kitchens_assembled_57: 4077980941823721580
-      kitchens_assembled_58: 3363132483740028293
-      kitchens_assembled_59: 6185899970994053769
-      kitchens_assembled_6: 6499495982555028256
-      kitchens_assembled_60: 6354462221076623336
-      kitchens_assembled_61: -4610480287865164514
-      kitchens_assembled_62: 1371423641316087915
-      kitchens_assembled_63: 739232456021612008
-      kitchens_assembled_64: 197265334536144829
-      kitchens_assembled_65: -3493653481323876925
-      kitchens_assembled_66: 3532140803175802184
-      kitchens_assembled_67: -2973268271670344222
-      kitchens_assembled_68: 2419956099780905185
-      kitchens_assembled_7: 7836355952716861507
-      kitchens_assembled_8: 2166127737951358232
-      kitchens_assembled_9: -5932994112998051012
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
