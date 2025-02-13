@@ -447,20 +447,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      couchtables16x16_shadow_0: 9074561849226738619
-      couchtables16x16_shadow_1: -8300290081335174706
-      couchtables16x16_shadow_10: 2596303124701758828
-      couchtables16x16_shadow_11: -8571501190831330335
-      couchtables16x16_shadow_12: -3881468471994570926
-      couchtables16x16_shadow_2: -1870957590100197966
-      couchtables16x16_shadow_3: -1876963464260831846
-      couchtables16x16_shadow_4: -8492494866445673185
-      couchtables16x16_shadow_5: 7642911521858486593
-      couchtables16x16_shadow_6: 8559022885856381687
-      couchtables16x16_shadow_7: -9208563766888243200
-      couchtables16x16_shadow_8: -6226924452791249553
-      couchtables16x16_shadow_9: -5066781724925237406
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
