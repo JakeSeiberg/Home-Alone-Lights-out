@@ -647,28 +647,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      wallshelves_0: -6726071782507370012
-      wallshelves_1: 5332528332050002617
-      wallshelves_10: 2438066243243584137
-      wallshelves_11: 5796222270373408533
-      wallshelves_12: -2969559368001006076
-      wallshelves_13: -169492092689379707
-      wallshelves_14: 6991821782167293729
-      wallshelves_15: 8856746334125410848
-      wallshelves_16: 5088743133035036329
-      wallshelves_17: 738030159504265448
-      wallshelves_18: 4442532841085382786
-      wallshelves_19: -8082881782097242619
-      wallshelves_2: 592039569085489028
-      wallshelves_20: 4560396801094139725
-      wallshelves_3: 715556836892736658
-      wallshelves_4: -3121035158412403157
-      wallshelves_5: 2793301144176039055
-      wallshelves_6: -9176558350876865530
-      wallshelves_7: -798212269120687514
-      wallshelves_8: -5150655009580959968
-      wallshelves_9: 9089941056833084693
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

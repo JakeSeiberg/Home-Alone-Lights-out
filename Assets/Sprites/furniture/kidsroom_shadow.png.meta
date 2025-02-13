@@ -1872,77 +1872,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      kidsroom_shadow_0: -6851351799274008812
-      kidsroom_shadow_1: -5594070665913119502
-      kidsroom_shadow_10: 5671283117603280270
-      kidsroom_shadow_11: 137701653656043433
-      kidsroom_shadow_12: 238607831979287370
-      kidsroom_shadow_13: -588752891000812711
-      kidsroom_shadow_14: -5118600723119344680
-      kidsroom_shadow_15: -5361441075130199081
-      kidsroom_shadow_16: -3346445974876287
-      kidsroom_shadow_17: 3359613196725559276
-      kidsroom_shadow_18: -7769773961677233295
-      kidsroom_shadow_19: 4699458584155954552
-      kidsroom_shadow_2: 8008352207005359291
-      kidsroom_shadow_20: 3719835935934315216
-      kidsroom_shadow_21: -86085693339471718
-      kidsroom_shadow_22: 343606472548712909
-      kidsroom_shadow_23: 24672620993707556
-      kidsroom_shadow_24: -3074665971838513424
-      kidsroom_shadow_25: -2410089184464628227
-      kidsroom_shadow_26: -1260607527414702405
-      kidsroom_shadow_27: 666459935466304041
-      kidsroom_shadow_28: 5967548553559741089
-      kidsroom_shadow_29: 3090943620494466562
-      kidsroom_shadow_3: 6112508688438874606
-      kidsroom_shadow_30: 402453549516619068
-      kidsroom_shadow_31: -1648701654395463383
-      kidsroom_shadow_32: 8262032509809308934
-      kidsroom_shadow_33: -695588354687306241
-      kidsroom_shadow_34: 1279323232786744313
-      kidsroom_shadow_35: -8448754997992242656
-      kidsroom_shadow_36: 3484732684138739636
-      kidsroom_shadow_37: 2495855042066244799
-      kidsroom_shadow_38: -4947304175746472277
-      kidsroom_shadow_39: 4796506863459992835
-      kidsroom_shadow_4: 1765140698682954036
-      kidsroom_shadow_40: 1865592698623845502
-      kidsroom_shadow_41: -5692612655565470251
-      kidsroom_shadow_42: -5068270319780467689
-      kidsroom_shadow_43: 830884266778103745
-      kidsroom_shadow_44: -6195068127419224355
-      kidsroom_shadow_45: 994108882725777607
-      kidsroom_shadow_46: -5684309962437189330
-      kidsroom_shadow_47: -7536223715569725118
-      kidsroom_shadow_48: 5533339796363169720
-      kidsroom_shadow_49: -6191467695135102380
-      kidsroom_shadow_5: -3348497361403918681
-      kidsroom_shadow_50: -1148000792928128512
-      kidsroom_shadow_51: -1367909871947293459
-      kidsroom_shadow_52: -280224315841468217
-      kidsroom_shadow_53: 3095188003382399392
-      kidsroom_shadow_54: -1195836154647301399
-      kidsroom_shadow_55: 6131855339147798932
-      kidsroom_shadow_56: -185362093152550449
-      kidsroom_shadow_57: -3019380804391573789
-      kidsroom_shadow_58: -9160673103452266290
-      kidsroom_shadow_59: 1820612228402642333
-      kidsroom_shadow_6: 8351192189117450807
-      kidsroom_shadow_60: -4036270599751591462
-      kidsroom_shadow_61: -5534812116961165718
-      kidsroom_shadow_62: -4309310578645189862
-      kidsroom_shadow_63: -9593391574930615
-      kidsroom_shadow_64: 5521276279543367647
-      kidsroom_shadow_65: -3120932235368719744
-      kidsroom_shadow_66: 6791354800825696285
-      kidsroom_shadow_67: 4304234112364925483
-      kidsroom_shadow_68: -7503467885053031475
-      kidsroom_shadow_69: 5407257664671587081
-      kidsroom_shadow_7: 5604103584869345751
-      kidsroom_shadow_8: -7259488987269708644
-      kidsroom_shadow_9: 5900532753656243347
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
