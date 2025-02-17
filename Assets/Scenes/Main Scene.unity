@@ -270,6 +270,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  characterSprites:
+  - {fileID: -2250542485028693144, guid: 48dbe74df828349ec8a12755e1db93bb, type: 3}
+  - {fileID: -3475212710948970362, guid: 48dbe74df828349ec8a12755e1db93bb, type: 3}
+  - {fileID: 7518704680935207466, guid: 48dbe74df828349ec8a12755e1db93bb, type: 3}
+  - {fileID: 4814174900066042786, guid: 48dbe74df828349ec8a12755e1db93bb, type: 3}
 --- !u!212 &839646884
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -314,12 +319,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2566984232753530945, guid: d641abbcde1f44dc6b7522a1775a52e3, type: 3}
+  m_Sprite: {fileID: -2250542485028693144, guid: 48dbe74df828349ec8a12755e1db93bb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.34, y: 0.46}
+  m_Size: {x: 0.15, y: 0.24}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -335,7 +340,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
