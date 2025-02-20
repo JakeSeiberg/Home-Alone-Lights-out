@@ -9,12 +9,6 @@ public class PlayerAnimator : MonoBehaviour
         playerAnimator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     void FixedUpdate()
     {
         checkWalk();
