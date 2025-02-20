@@ -10,10 +10,14 @@ public class RandomEnemyMovement : MonoBehaviour
     private Vector2 movementDirection;
     private float moveTimer;
     private Rigidbody2D rb;
+    private bool isIdle = false;
+
+    private EnemyAnimationController animController; // Reference to animation script
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animController = GetComponent<EnemyAnimationController>(); // Get animation script
         PickNewDirection();
     }
 
@@ -21,7 +25,7 @@ public class RandomEnemyMovement : MonoBehaviour
     {
         moveTimer -= Time.deltaTime;
 
-        if (moveTimer <= 0)
+        if (moveTimer <= 0 && !isIdle)
         {
             PickNewDirection();
         }
@@ -35,7 +39,16 @@ public class RandomEnemyMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.linearVelocity = movementDirection * speed;
+        if (!isIdle)
+        {
+            rb.linearVelocity = movementDirection * speed; // ✅ Use linearVelocity
+            animController.SetMoving(true, movementDirection.x); // Update animation
+        }
+        else
+        {
+            rb.linearVelocity = Vector2.zero;
+            animController.SetMoving(false, 0);
+        }
     }
 
     void PickNewDirection()
@@ -50,5 +63,28 @@ public class RandomEnemyMovement : MonoBehaviour
         }
 
         moveTimer = moveTime;
+        isIdle = false; // ✅ Make sure it is not stuck in idle state
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            isIdle = true;
+            rb.linearVelocity = Vector2.zero;
+            animController.SetMoving(false, 0); // Tell animator to go idle
+
+            // ✅ Immediately pick a new direction to avoid getting stuck
+            Invoke("PickNewDirection", 0.5f); // Small delay before switching direction
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Wall"))
+        {
+            isIdle = false;
+            PickNewDirection(); // ✅ Ensures movement resumes properly
+        }
     }
 }
