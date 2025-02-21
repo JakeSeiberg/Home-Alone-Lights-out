@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -4416355316854257437}
   - component: {fileID: -46689525269300100}
   m_Layer: 0
-  m_Name: AutoMoveEnemy
+  m_Name: Goblin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

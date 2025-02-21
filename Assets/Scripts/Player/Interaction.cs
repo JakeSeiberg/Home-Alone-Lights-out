@@ -18,14 +18,18 @@ public class Interaction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.Space)){
+        if(Input.GetKey(KeyCode.Space) && LightTime.maxTime > 0){
             LightUp();
             if (lights.pointLightOuterRadius >= 1.6){
                 maxLight = true;
             }
+            LightTime.LightConsumed();
         }
         else if (lights.pointLightOuterRadius > 1){
             LightDown();
+        }
+        else if (lights.pointLightOuterRadius <= 1){
+            maxLight = false;
         }
     }
 
