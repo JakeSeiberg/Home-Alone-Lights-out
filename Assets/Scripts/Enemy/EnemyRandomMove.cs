@@ -12,12 +12,12 @@ public class RandomEnemyMovement : MonoBehaviour
     private Rigidbody2D rb;
     private bool isIdle = false;
 
-    private EnemyAnimationController animController; // Reference to animation script
-
+    //private EnemyAnimationController animController; // Reference to animation script
+    //had to comment out some things that wouldnt let me open unity, feel free to uncomment
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animController = GetComponent<EnemyAnimationController>(); // Get animation script
+        //animController = GetComponent<EnemyAnimationController>(); // Get animation script
         PickNewDirection();
     }
 
@@ -42,12 +42,12 @@ public class RandomEnemyMovement : MonoBehaviour
         if (!isIdle)
         {
             rb.linearVelocity = movementDirection * speed; // ✅ Use linearVelocity
-            animController.SetMoving(true, movementDirection.x); // Update animation
+            //animController.SetMoving(true, movementDirection.x); // Update animation
         }
         else
         {
             rb.linearVelocity = Vector2.zero;
-            animController.SetMoving(false, 0);
+            //animController.SetMoving(false, 0);
         }
     }
 
@@ -72,7 +72,7 @@ public class RandomEnemyMovement : MonoBehaviour
         {
             isIdle = true;
             rb.linearVelocity = Vector2.zero;
-            animController.SetMoving(false, 0); // Tell animator to go idle
+            //animController.SetMoving(false, 0); // Tell animator to go idle
 
             // ✅ Immediately pick a new direction to avoid getting stuck
             Invoke("PickNewDirection", 0.5f); // Small delay before switching direction
