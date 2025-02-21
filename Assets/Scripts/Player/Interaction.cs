@@ -1,7 +1,14 @@
+using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
 
-public class LightGrowth : MonoBehaviour
+public class Interaction : MonoBehaviour
 {
+    public Light2D lights;
+    private bool maxLight = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -11,6 +18,30 @@ public class LightGrowth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKey(KeyCode.Space)){
+            LightUp();
+            if (lights.pointLightOuterRadius >= 1.6){
+                maxLight = true;
+            }
+        }
+        else if (lights.pointLightOuterRadius > 1){
+            LightDown();
+        }
+    }
+
+    void LightUp(){
+        if (maxLight){
+            lights.pointLightInnerRadius += 0;
+            lights.pointLightOuterRadius += 0;
+        }
+        else{
+            lights.pointLightInnerRadius += 0.006f;
+            lights.pointLightOuterRadius += 0.006f;
+        }
+
+    }
+    void LightDown(){
+        lights.pointLightInnerRadius -= 0.006f;
+        lights.pointLightOuterRadius -= 0.006f;
     }
 }
