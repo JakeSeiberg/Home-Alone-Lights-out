@@ -15,28 +15,28 @@ public class PlayerAnimator : MonoBehaviour
     }
 
     void checkWalk(){
-        if(Input.GetKey(KeyCode.A)){
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)){
             playerAnimator.SetBool("IsAPress", true);
         }
         else{
             playerAnimator.SetBool("IsAPress", false);
         }
 
-        if(Input.GetKey(KeyCode.D)){
+        if(Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)){
             playerAnimator.SetBool("IsDPress", true);
         }
         else{
             playerAnimator.SetBool("IsDPress", false);
         }
 
-        if(Input.GetKey(KeyCode.S)){
+        if(Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)){
             playerAnimator.SetBool("IsSPress", true);
         }
         else{
             playerAnimator.SetBool("IsSPress", false);
         }
 
-        if(Input.GetKey(KeyCode.W)){
+        if(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)){
             playerAnimator.SetBool("IsWPress", true);
         }
         else{
