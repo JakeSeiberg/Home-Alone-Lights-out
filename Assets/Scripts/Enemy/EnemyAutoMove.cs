@@ -3,53 +3,50 @@ using UnityEngine;
 public class EnemyAutoMove : MonoBehaviour
 {
     public float speed = 2f; // Speed of movement
-    public Transform pointA; // First position
-    public Transform pointB; // Second position
-
-    private Vector3 targetPosition;
-
+    public Transform[] points; // Array of movement positions (Can be 2, 3, or more)
+    
+    private int targetIndex = 0; // Current target index
     private SpriteRenderer spriteRenderer;
     private bool movingLeft;
 
     void Start()
     {
-        targetPosition = pointA.position; // Start moving towards pointA
+        if (points.Length == 0)
+        {
+            Debug.LogError("No points assigned to EnemyAutoMove script!");
+            return;
+        }
+
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        Move();
-        spriteRenderer.flipX = movingLeft;
+        if (points.Length > 0)
+        {
+            Move();
+        }
     }
 
     void Move()
     {
-        // Move towards target
-        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+        // Move towards current target point
+        transform.position = Vector3.MoveTowards(transform.position, points[targetIndex].position, speed * Time.deltaTime);
 
-        if (targetPosition.x < transform.position.x) // Moving left
-        {
-            movingLeft = true;
-        }
-        else // Moving right
-        {
-            movingLeft = false;
-        }
-
+        // Determine sprite flipping direction
+        movingLeft = points[targetIndex].position.x < transform.position.x;
         spriteRenderer.flipX = movingLeft;
 
-        // Check if reached the target position
-        if (Vector3.Distance(transform.position, targetPosition) < 0.1f)
+        // Check if reached target position
+        if (Vector3.Distance(transform.position, points[targetIndex].position) < 0.1f)
         {
-            // Switch target using an if statement
-            if (targetPosition == pointA.position)
+            // Move to next point in sequence
+            targetIndex++;
+
+            // If we reached the last point, go back to the first
+            if (targetIndex >= points.Length)
             {
-                targetPosition = pointB.position;
-            }
-            else
-            {
-                targetPosition = pointA.position;
+                targetIndex = 0; // Restart cycle
             }
         }
     }

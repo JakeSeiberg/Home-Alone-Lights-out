@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lever2Animation2_0: -1576556933206552201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
