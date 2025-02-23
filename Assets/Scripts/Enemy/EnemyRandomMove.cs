@@ -63,7 +63,7 @@ public class RandomEnemyMovement : MonoBehaviour
         }
 
         moveTimer = moveTime;
-        isIdle = false; // ✅ Make sure it is not stuck in idle state
+        isIdle = false; // Make sure it is not stuck in idle state
     }
 
     void OnCollisionEnter2D(Collision2D collision)
