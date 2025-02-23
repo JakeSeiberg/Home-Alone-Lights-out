@@ -1,6 +1,7 @@
 using UnityEngine;
 using Unity.Cinemachine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class CameraShake : MonoBehaviour
 {
@@ -20,8 +21,8 @@ public class CameraShake : MonoBehaviour
     void Update()
     {
         float distance = ClosestMonster();
-        float noiseMultiplier = minNoise/distance;
-        CShake(noiseMultiplier);
+        //float noiseMultiplier = minNoise/distance;
+        CShake(distance);
     }
 
     float ClosestMonster(){
@@ -32,14 +33,17 @@ public class CameraShake : MonoBehaviour
         return distance;
     }
     void CShake(float multiplier){
-        if (noise.AmplitudeGain * multiplier < 1){
-            noise.AmplitudeGain = 1;
+        if (multiplier <= 4 && multiplier > 3){
+            noise.FrequencyGain = 1;
         }
-        else if (noise.AmplitudeGain * multiplier > 5){
-            noise.AmplitudeGain = 5;
+        else if (multiplier <= 3 && multiplier > 2){
+            noise.FrequencyGain = 2;
+        }
+        else if (multiplier <= 2 && multiplier > 0){
+            noise.FrequencyGain = 3;
         }
         else {
-            noise.AmplitudeGain *= multiplier;
+            noise.FrequencyGain = 0;
         }
         
     }
