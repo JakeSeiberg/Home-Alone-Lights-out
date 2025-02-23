@@ -11,22 +11,23 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void OnTutorial(){
-        SceneManager.LoadScene(1);
         curLevel = 1;
+        SceneManager.LoadScene(1);
     }
 
     public void OnLeveOne(){
-        SceneManager.LoadScene(2);
         curLevel = 2;
+        SceneManager.LoadScene(2);
     }
 
     public void OnLevelTwo()
     {
-        SceneManager.LoadScene(3);
         curLevel = 3;
+        SceneManager.LoadScene(3);
     }
 
     public void OnLevelThree(){
+        curLevel = 4;
         SceneManager.LoadScene(4);
     }
 

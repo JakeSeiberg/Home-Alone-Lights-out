@@ -11,6 +11,7 @@ public class LightTime : MonoBehaviour
     void Start()
     {
         _lightSpriteRenderer = GetComponent<SpriteRenderer>();
+        maxTime = 8f;
     }
 
     // Update is called once per frame
