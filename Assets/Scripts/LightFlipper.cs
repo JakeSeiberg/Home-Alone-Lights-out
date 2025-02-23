@@ -14,7 +14,7 @@ public class LightFlipper : MonoBehaviour
     void Update()
     {
         if (LeverTracker.leversSwitched[leverCounter]){
-            levelLights[leverCounter].intensity = 0;
+            levelLights[leverCounter].intensity = 1;
             if (!BedScript.AreAllTrue(LeverTracker.leversSwitched))
                 leverCounter++;
         }

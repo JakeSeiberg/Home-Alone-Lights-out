@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class LevelCompleteController : MonoBehaviour
 {
-   public void OnMainMenu(){
+    public void OnMainMenu(){
         SceneManager.LoadScene(0);
     }
 

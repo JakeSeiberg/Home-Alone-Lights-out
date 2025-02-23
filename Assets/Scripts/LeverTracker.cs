@@ -15,4 +15,9 @@ public class LeverTracker : MonoBehaviour
     {
         //Debug.Log(string.Join(" ", leversSwitched));
     }
+
+    public static void resetLevers(){ //temporary fix
+        leversSwitched[0] = false;
+        leversSwitched[1] = false;
+    }
 }

@@ -1,5 +1,7 @@
 using UnityEngine;
 using System.Collections;
+using UnityEditor.SearchService;
+using UnityEngine.SceneManagement;
 
 public class BedScript : MonoBehaviour
 {
@@ -47,6 +49,7 @@ public class BedScript : MonoBehaviour
         yield return new WaitForSeconds(.5f); // Wait before changing
 
         Debug.Log("Level Complete");
+        SceneManager.LoadScene(1);
     }
 
 }
