@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9d84bcf1888164e7dbf0f229dca17d9d
+guid: 9567b99e0f6c34f84ad4d6ff13711415
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7229026746256397083
-    second: leverAnimation3_0
+      213: -4043211451759397665
+    second: MainScreenBackground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: leverAnimation3_0
+      name: MainScreenBackground_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 12
-        width: 32
-        height: 57
+        y: 0
+        width: 570
+        height: 319
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ece69da9765dab90800000000000000
-      internalID: -7229026746256397083
+      spriteID: fd4f6124b90a3e7c0800000000000000
+      internalID: -4043211451759397665
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      leverAnimation3_0: -7229026746256397083
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
