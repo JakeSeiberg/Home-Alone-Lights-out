@@ -38,7 +38,7 @@ public class LeverRadiusScript : MonoBehaviour
         {
             StartCoroutine(PlayLeverAnimation());
         }
-        Debug.Log(string.Join(" ", leversSwitched));
+        //Debug.Log(string.Join(" ", leversSwitched));
 
     }
 
@@ -46,8 +46,7 @@ public class LeverRadiusScript : MonoBehaviour
     {
         isAnimating = true; // Prevent retriggering animation
         hasSwitched = true;
-        leversSwitched[leverIndex] = true;
-
+        LeverTracker.leversSwitched[leverIndex] = true;
 
         for (int i = 0; i < leverSprites.Length; i++)
         {
