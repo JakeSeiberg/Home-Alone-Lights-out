@@ -31,6 +31,9 @@ public class Interaction : MonoBehaviour
         else if (lights.pointLightOuterRadius <= 1){
             maxLight = false;
         }
+        if (BedScript.AreAllTrue(LeverTracker.leversSwitched)){
+            lights.intensity = 0;
+        }
     }
 
     void LightUp(){

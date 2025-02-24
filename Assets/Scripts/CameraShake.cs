@@ -2,15 +2,18 @@ using UnityEngine;
 using Unity.Cinemachine;
 using System.Collections;
 using Unity.VisualScripting;
+using System;
+using System.Linq;
 
 public class CameraShake : MonoBehaviour
 {
     public CinemachineCamera vCam;
     public GameObject player;
-    public GameObject enemy;
+    public GameObject[] enemies;
     private CinemachineBasicMultiChannelPerlin noise;
 
     public float minNoise = 1;
+    public float[] distance;
 
 
     void Start()
@@ -19,32 +22,32 @@ public class CameraShake : MonoBehaviour
     }
 
     void Update()
-    {
-        float distance = ClosestMonster();
-        //float noiseMultiplier = minNoise/distance;
-        CShake(distance);
+    {   
+        ClosestMonster();
+        CShake(distance.Min());
     }
 
-    float ClosestMonster(){
-        Vector2 a = new Vector2(player.transform.position.x, player.transform.position.y);
-        Vector2 b = new Vector2(enemy.transform.position.x, enemy.transform.position.y);
-        float distance = Vector2.Distance(a, b);
-        Debug.Log(distance);
-        return distance;
+    void ClosestMonster(){
+
+        for (int i = 0; i < enemies.Length; i++){
+            Vector2 a = new Vector2(player.transform.position.x, player.transform.position.y);
+            Vector2 b = new Vector2(enemies[i].transform.position.x, enemies[i].transform.position.y);
+            distance[i] = Vector2.Distance(a, b);
+        }
     }
-    void CShake(float multiplier){
-        if (multiplier <= 4 && multiplier > 3){
+
+    void CShake(float closestMonster){
+        if (closestMonster <= 3 && closestMonster > 2){
             noise.FrequencyGain = 1;
         }
-        else if (multiplier <= 3 && multiplier > 2){
+        else if (closestMonster <= 2 && closestMonster > 1.5){
             noise.FrequencyGain = 2;
         }
-        else if (multiplier <= 2 && multiplier > 0){
+        else if (closestMonster <= 1.5 && closestMonster > 0){
             noise.FrequencyGain = 3;
         }
         else {
             noise.FrequencyGain = 0;
         }
-        
     }
 }
