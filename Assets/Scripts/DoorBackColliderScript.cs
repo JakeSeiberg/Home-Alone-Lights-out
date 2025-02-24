@@ -47,7 +47,7 @@ public class DoorBackColliderScript : MonoBehaviour
         newPosition.x = teleportX;  // Set the X position
         newPosition.y = teleportY;  // Set the Y position
         player.transform.localPosition = newPosition;  // Apply the new position
-        PlayerRoomTracker.SetPlayerRoomIndex(0);
+        PlayerRoomTracker.SetPlayerRoomIndex(roomIndexAfterTeleport);
     }
 
 }

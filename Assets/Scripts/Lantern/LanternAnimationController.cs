@@ -15,7 +15,10 @@ public class LanternAnimationController : MonoBehaviour
     
     void FixedUpdate()
     {
-        checkLanternStatus();
+        if (!BedScript.AreAllTrue(LeverTracker.leversSwitched))
+        {
+            checkLanternStatus();
+        }
     }
 
     void checkLanternStatus(){

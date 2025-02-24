@@ -37,7 +37,7 @@ public class DoorThruCollider : MonoBehaviour
 
     void Update()
     {
-        if (playerInRange && (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) && LeverTracker.leversSwitched[0] == true)
+        if (playerInRange && (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) && LeverTracker.leversSwitched[PlayerRoomTracker.playerCurrentRoomIndex] == true)
         {
             StartCoroutine(PlayDoorAnimation());
         }
@@ -65,7 +65,7 @@ public class DoorThruCollider : MonoBehaviour
         newPosition.x = teleportX;  // Set the X position
         newPosition.y = teleportY;  // Set the Y position
         player.transform.localPosition = newPosition;  // Apply the new position
-        PlayerRoomTracker.SetPlayerRoomIndex(1);
+        PlayerRoomTracker.SetPlayerRoomIndex(roomIndexAfterTeleport);
 
     }
 

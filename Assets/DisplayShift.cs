@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DisplayShift : MonoBehaviour
 {
-    public static bool[] shiftColliders = {false, false, false};
+    public static bool[] shiftColliders = {false, false, false, false};
     public float offset = -1.2f; //
 
     public GameObject player;
@@ -10,29 +10,42 @@ public class DisplayShift : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
-    }
-
-    public static void showShift(int colliderIndex){
-        
+        gameObject.GetComponent<SpriteRenderer>().enabled = false;
     }
 
     void Update()
     {
-        print(shiftColliders[0]);
-        print(shiftColliders[0]);
-        print(shiftColliders[0]);
-        print("reset");
-        if (shiftColliders[0] || shiftColliders[1] || shiftColliders[2]){
-            gameObject.GetComponent<SpriteRenderer>().enabled = true;
-            Vector3 playerPosition = player.transform.position;
-            Vector3 spacebarPosition = new Vector3(playerPosition.x + offset, playerPosition.y, playerPosition.z);
-            transform.position = spacebarPosition;
+        if (shiftColliders[0] && LeverTracker.leversSwitched[PlayerRoomTracker.playerCurrentRoomIndex]) {
+            showShift();
+        }
+        else if (shiftColliders[1]){
+            showShift();
+        }
+        else if (shiftColliders[2]){
+            showShift();
+        }
+        else if (shiftColliders[3]){
+            showShift();
         }
         else
         {
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
         }
-        
+        //print("On: " + shiftColliders[0] + " " + shiftColliders[1] + " " + shiftColliders[2] + " " + shiftColliders[3]);
+    }
+
+    void showShift()
+    {
+        gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        Vector3 playerPosition = player.transform.position;
+        Vector3 spacebarPosition = new Vector3(playerPosition.x + offset, playerPosition.y, playerPosition.z);
+        transform.position = spacebarPosition;
+    }
+
+    public static void resetBools(){
+        for (int i = 0; i < shiftColliders.Length; i++)
+        {
+            shiftColliders[i] = false;
+        }
     }
 }

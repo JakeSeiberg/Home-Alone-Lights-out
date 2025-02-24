@@ -19,16 +19,8 @@ public class ShiftColliderScript : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
-            {
-                DisplayShift.shiftColliders[colliderIndex] = true;
-            }
-
-
-        if (colliderIndex == 1){
-            if (LeverTracker.leversSwitched[0])
-            {
-                print("hey");
-            }
+        {
+            DisplayShift.shiftColliders[colliderIndex] = true;
         }
     }
 

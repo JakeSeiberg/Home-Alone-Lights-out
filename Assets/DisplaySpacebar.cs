@@ -15,7 +15,7 @@ public class DisplaySpacebar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player != null && PlayerRoomTracker.playerCurrentRoomIndex == 0)
+        if (player != null && PlayerRoomTracker.playerCurrentRoomIndex == 0 && !BedScript.AreAllTrue(LeverTracker.leversSwitched) && LeverTracker.leversSwitched[0] == false) 
         {
             if (Input.GetKey(KeyCode.Space))
             {
