@@ -447,7 +447,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0
+  m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
@@ -2311,10 +2311,8 @@ MonoBehaviour:
   - {fileID: -8941794205797320855, guid: 14379251a875744e8b74a14e4ce04967, type: 3}
   - {fileID: -4756335130094519594, guid: c35fc6ad74a64470ba115f0b31abc280, type: 3}
   - {fileID: -2828486259269243792, guid: da4a8c63c9a0f43908c8551db10aad60, type: 3}
-  frameDelay: 0.12
   roomIndexAfterTeleport: 1
-  teleportX: -4.66
-  teleportY: 0.24
+  door: {fileID: 920876000}
   player: {fileID: 762920002}
 --- !u!58 &676939449
 CircleCollider2D:
@@ -2655,7 +2653,7 @@ Transform:
   m_GameObject: {fileID: 762920002}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.6, y: -4.89, z: 0.040580258}
+  m_LocalPosition: {x: -1.71, y: -4.9, z: 0.040580258}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4896,7 +4894,7 @@ GameObject:
   - component: {fileID: 920876002}
   - component: {fileID: 920876001}
   m_Layer: 0
-  m_Name: Door (1)
+  m_Name: Door (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8620,7 +8618,7 @@ Transform:
   m_GameObject: {fileID: 1122206224}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.515381, y: -10.46863, z: -9.930725}
+  m_LocalPosition: {x: 2.405381, y: -10.47863, z: -9.930725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9846,7 +9844,7 @@ GameObject:
   - component: {fileID: 1339761248}
   - component: {fileID: 1339761247}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Door (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36115,9 +36113,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 762920002}
-  teleportX: -4.66
-  teleportY: -3.33
   roomIndexAfterTeleport: 0
+  door: {fileID: 920876000}
 --- !u!58 &1604947259
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -45943,9 +45940,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 762920002}
-  teleportX: -2.61
-  teleportY: 12.7
   roomIndexAfterTeleport: 1
+  door: {fileID: 1339761246}
 --- !u!1001 &1830637512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46048,7 +46044,7 @@ Transform:
   m_GameObject: {fileID: 1832953362}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.515381, y: -10.46863, z: -9.930725}
+  m_LocalPosition: {x: 2.405381, y: -10.47863, z: -9.930725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -46365,10 +46361,8 @@ MonoBehaviour:
   - {fileID: -8941794205797320855, guid: 14379251a875744e8b74a14e4ce04967, type: 3}
   - {fileID: -4756335130094519594, guid: c35fc6ad74a64470ba115f0b31abc280, type: 3}
   - {fileID: -2828486259269243792, guid: da4a8c63c9a0f43908c8551db10aad60, type: 3}
-  frameDelay: 0.12
   roomIndexAfterTeleport: 2
-  teleportX: -2.61
-  teleportY: 16.12
+  door: {fileID: 1339761246}
   player: {fileID: 762920002}
 --- !u!58 &1952389767
 CircleCollider2D:
@@ -46854,8 +46848,8 @@ SceneRoots:
   - {fileID: 536857109}
   - {fileID: 1973386301}
   - {fileID: 821652120}
-  - {fileID: 1339761248}
   - {fileID: 920876002}
+  - {fileID: 1339761248}
   - {fileID: 919051648}
   - {fileID: 1453899152}
   - {fileID: 1278483643}
