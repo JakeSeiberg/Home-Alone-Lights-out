@@ -4,6 +4,7 @@ public class EnemyAutoMove : MonoBehaviour
 {
     public float speed = 2f; // Speed of movement
     public Transform[] points; // Array of movement positions (Can be 2, 3, or more)
+    public int roomIndex;
     
     private int targetIndex = 0; // Current target index
     private SpriteRenderer spriteRenderer;
@@ -25,6 +26,11 @@ public class EnemyAutoMove : MonoBehaviour
         if (points.Length > 0)
         {
             Move();
+        }
+
+        if (LeverTracker.leversSwitched[roomIndex] == true)
+        {
+            gameObject.SetActive(false);
         }
     }
 
