@@ -7,7 +7,6 @@ public class BedScript : MonoBehaviour
 
     private bool playerInRange = false;
     
-
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")) // Ensure the player has the "Player" tag

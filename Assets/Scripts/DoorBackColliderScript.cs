@@ -5,6 +5,9 @@ public class DoorBackColliderScript : MonoBehaviour
 {
 
     public GameObject player;
+    public float teleportX;
+    public float teleportY;
+    public int roomIndexAfterTeleport;
 
     private bool playerInRange = false;
     
@@ -41,9 +44,10 @@ public class DoorBackColliderScript : MonoBehaviour
 
         
         Vector3 newPosition = player.transform.position;
-        newPosition.x = -2.61f;  // Set the X position
-        newPosition.y = 12.7f;  // Set the Y position
+        newPosition.x = teleportX;  // Set the X position
+        newPosition.y = teleportY;  // Set the Y position
         player.transform.localPosition = newPosition;  // Apply the new position
+        PlayerRoomTracker.SetPlayerRoomIndex(0);
     }
 
 }

@@ -7,6 +7,10 @@ public class DoorThruCollider : MonoBehaviour
     public SpriteRenderer doorSpriteRenderer; // Assign in Inspector
     public Sprite[] doorSprites; // Assign multiple sprites in Inspector
     public float frameDelay = 0.12f; // Time between frames
+    public int roomIndexAfterTeleport;
+
+    public float teleportX;
+    public float teleportY;
 
     public GameObject player;
 
@@ -58,9 +62,10 @@ public class DoorThruCollider : MonoBehaviour
 
         
         Vector3 newPosition = player.transform.position;
-        newPosition.x = -2.61f;  // Set the X position
-        newPosition.y = 16.12f;  // Set the Y position
+        newPosition.x = teleportX;  // Set the X position
+        newPosition.y = teleportY;  // Set the Y position
         player.transform.localPosition = newPosition;  // Apply the new position
+        PlayerRoomTracker.SetPlayerRoomIndex(1);
 
     }
 
