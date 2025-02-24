@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerRoomTracker : MonoBehaviour
 {
 
-    private static int playerCurrentRoomIndex;
+    public static int playerCurrentRoomIndex;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
