@@ -20,15 +20,15 @@ public class Interaction : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Space) && LightTime.maxTime > 0){
             LightUp();
-            if (lights.pointLightOuterRadius >= 1.6){
+            if (lights.pointLightOuterRadius >= 2.7){
                 maxLight = true;
             }
             LightTime.LightConsumed();
         }
-        else if (lights.pointLightOuterRadius > 1){
+        else if (lights.pointLightOuterRadius > 1.6){
             LightDown();
         }
-        else if (lights.pointLightOuterRadius <= 1){
+        else if (lights.pointLightOuterRadius <= 1.6){
             maxLight = false;
         }
         if (BedScript.AreAllTrue(LeverTracker.leversSwitched)){
