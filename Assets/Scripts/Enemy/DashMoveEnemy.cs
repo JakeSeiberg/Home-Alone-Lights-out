@@ -73,6 +73,8 @@ public class DashingEnemy : MonoBehaviour
     public float idleTime = 1.5f; // Time to wait before dashing
     public Transform[] points;    // Array of movement positions
 
+    public int roomIndex;
+
     private int targetIndex = 0; // Current target in the sequence
     private bool isDashing = false;
     private SpriteRenderer spriteRenderer;
@@ -96,6 +98,11 @@ public class DashingEnemy : MonoBehaviour
         if (points.Length > 0)
         {
             spriteRenderer.flipX = movingLeft;
+        }
+
+        if (LeverTracker.leversSwitched[roomIndex] == true)
+        {
+            gameObject.SetActive(false);
         }
     }
 
