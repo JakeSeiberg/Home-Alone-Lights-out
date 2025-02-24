@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LeverTracker : MonoBehaviour
 {
-    public static bool[] leversSwitched = {false, false};
+    public static bool[] leversSwitched = {false, false, false};
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,5 +19,6 @@ public class LeverTracker : MonoBehaviour
     public static void resetLevers(){ //temporary fix
         leversSwitched[0] = false;
         leversSwitched[1] = false;
+        leversSwitched[2] = false;
     }
 }
