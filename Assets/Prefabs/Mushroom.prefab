@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5834978914552702495}
   - component: {fileID: 8001622517898587096}
   - component: {fileID: -772764624680146528}
+  - component: {fileID: -1839916910052326992}
   m_Layer: 0
   m_Name: Mushroom
   m_TagString: Enemy
@@ -134,7 +135,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &-772764624680146528
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -181,3 +182,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.25, y: 0.39}
   m_EdgeRadius: 0
+--- !u!95 &-1839916910052326992
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2189618482048243201}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 02632b8690ef64f258e71c484f90b9c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
