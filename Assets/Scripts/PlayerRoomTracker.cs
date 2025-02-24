@@ -14,7 +14,7 @@ public class PlayerRoomTracker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print(playerCurrentRoomIndex);
+        //print(playerCurrentRoomIndex);
     }
 
     public static void SetPlayerRoomIndex(int roomIndex)
