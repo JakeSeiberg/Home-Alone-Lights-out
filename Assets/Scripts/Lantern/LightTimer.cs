@@ -42,7 +42,7 @@ public class LightTime : MonoBehaviour
             _lightSpriteRenderer.sprite = timerSprites[6];
         }
         if (maxTime <= 0){
-            _lightSpriteRenderer.sprite = timerSprites[7];
+            _lightSpriteRenderer.enabled = false;
         }
     }
     public static void LightConsumed(){
