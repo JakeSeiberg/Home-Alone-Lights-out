@@ -2355,6 +2355,7 @@ MonoBehaviour:
   - {fileID: 175999477}
   - {fileID: 2019884134}
   - {fileID: 1902944094}
+  outDistance: {fileID: 1604220523}
   minNoise: 1
   distance:
   - 0
@@ -12489,6 +12490,9 @@ MonoBehaviour:
   - {fileID: -4756335130094519594, guid: c35fc6ad74a64470ba115f0b31abc280, type: 3}
   - {fileID: -2828486259269243792, guid: da4a8c63c9a0f43908c8551db10aad60, type: 3}
   frameDelay: 0.12
+  roomIndexAfterTeleport: 0
+  teleportX: 0
+  teleportY: 0
   player: {fileID: 1157272896}
 --- !u!58 &836755510
 CircleCollider2D:
@@ -12670,7 +12674,7 @@ SpriteRenderer:
   m_Size: {x: 0.21, y: 0.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &868611541
@@ -13208,7 +13212,7 @@ SpriteRenderer:
   m_Size: {x: 0.21, y: 0.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1212645708
@@ -14405,6 +14409,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1157272896}
+  teleportX: 0
+  teleportY: 0
+  roomIndexAfterTeleport: 0
 --- !u!58 &1447267337
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20807,6 +20814,37 @@ Transform:
   - {fileID: 388834858}
   - {fileID: 470429829}
   m_Father: {fileID: 1000625}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1604220523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604220524}
+  m_Layer: 0
+  m_Name: FalseDistance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1604220524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604220523}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.67, y: 4.76, z: -0.053529512}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1746216708
 GameObject:
@@ -44005,3 +44043,4 @@ SceneRoots:
   - {fileID: 1351708227}
   - {fileID: 1000625}
   - {fileID: 1867778098}
+  - {fileID: 1604220524}
