@@ -2286,6 +2286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9022ee9cd316c46538536b2c2e1780b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numberOfRooms: 0
 --- !u!4 &360614371
 Transform:
   m_ObjectHideFlags: 0
@@ -15012,7 +15013,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Main Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b60ab346ba8534403ba65e3b09485609, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 04f2ccd66cdfe4bafa9522b88bc074ee, type: 2}
   m_sharedMaterial: {fileID: -1337621626238055008, guid: b60ab346ba8534403ba65e3b09485609, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -15078,7 +15079,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &770246254
@@ -22520,7 +22521,7 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b60ab346ba8534403ba65e3b09485609, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 04f2ccd66cdfe4bafa9522b88bc074ee, type: 2}
   m_sharedMaterial: {fileID: -1337621626238055008, guid: b60ab346ba8534403ba65e3b09485609, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -22586,7 +22587,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1260672383
@@ -22858,9 +22859,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 538531190}
-  teleportX: -2.61
-  teleportY: 12.7
   roomIndexAfterTeleport: 0
+  door: {fileID: 0}
 --- !u!58 &1515607720
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -45736,10 +45736,8 @@ MonoBehaviour:
   - {fileID: -8941794205797320855, guid: 14379251a875744e8b74a14e4ce04967, type: 3}
   - {fileID: -4756335130094519594, guid: c35fc6ad74a64470ba115f0b31abc280, type: 3}
   - {fileID: -2828486259269243792, guid: da4a8c63c9a0f43908c8551db10aad60, type: 3}
-  frameDelay: 0.12
   roomIndexAfterTeleport: 1
-  teleportX: -2.61
-  teleportY: 16.12
+  door: {fileID: 0}
   player: {fileID: 538531190}
 --- !u!58 &2134175614
 CircleCollider2D:
