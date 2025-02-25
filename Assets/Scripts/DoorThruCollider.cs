@@ -6,11 +6,11 @@ public class DoorThruCollider : MonoBehaviour
 
     public SpriteRenderer doorSpriteRenderer; // Assign in Inspector
     public Sprite[] doorSprites; // Assign multiple sprites in Inspector
-    public float frameDelay = 0.12f; // Time between frames
+    private float frameDelay = 0.12f; // Time between frames
     public int roomIndexAfterTeleport;
 
-    public float teleportX;
-    public float teleportY;
+    private Vector2 teleportOffset;
+    public GameObject door;
 
     public GameObject player;
 
@@ -18,6 +18,11 @@ public class DoorThruCollider : MonoBehaviour
     
     private bool hasOpened = false;
 
+    void Start()
+    {
+        teleportOffset.x = -4.20183f;
+        teleportOffset.y = 6.33f;
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -37,7 +42,7 @@ public class DoorThruCollider : MonoBehaviour
 
     void Update()
     {
-        if (playerInRange && (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) && LeverTracker.leversSwitched[0] == true)
+        if (playerInRange && (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) && LeverTracker.leversSwitched[PlayerRoomTracker.playerCurrentRoomIndex] == true)
         {
             StartCoroutine(PlayDoorAnimation());
         }
@@ -61,11 +66,11 @@ public class DoorThruCollider : MonoBehaviour
         yield return new WaitForSeconds(.5f); // Wait before changing
 
         
-        Vector3 newPosition = player.transform.position;
-        newPosition.x = teleportX;  // Set the X position
-        newPosition.y = teleportY;  // Set the Y position
+        Vector3 newPosition = door.transform.position;
+        newPosition.x += teleportOffset.x;  // Set the X position
+        newPosition.y += teleportOffset.y;  // Set the Y position
         player.transform.localPosition = newPosition;  // Apply the new position
-        PlayerRoomTracker.SetPlayerRoomIndex(1);
+        PlayerRoomTracker.SetPlayerRoomIndex(roomIndexAfterTeleport);
 
     }
 

@@ -4,7 +4,7 @@ using UnityEngine.Rendering.Universal;
 public class LightFlipper : MonoBehaviour
 {
     public Light2D[] levelLights;
-    private int leverCounter = 0;
+    
     void Start()
     {
         

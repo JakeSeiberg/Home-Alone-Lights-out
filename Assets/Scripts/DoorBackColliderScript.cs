@@ -5,12 +5,18 @@ public class DoorBackColliderScript : MonoBehaviour
 {
 
     public GameObject player;
-    public float teleportX;
-    public float teleportY;
     public int roomIndexAfterTeleport;
 
     private bool playerInRange = false;
+
+    private Vector2 teleportOffset;
+    public GameObject door;
     
+    void Start()
+    {
+        teleportOffset.x = -4.20183f;
+        teleportOffset.y = 2.95f;
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -43,11 +49,11 @@ public class DoorBackColliderScript : MonoBehaviour
         yield return new WaitForSeconds(.5f); // Wait before changing
 
         
-        Vector3 newPosition = player.transform.position;
-        newPosition.x = teleportX;  // Set the X position
-        newPosition.y = teleportY;  // Set the Y position
+        Vector3 newPosition = door.transform.position;
+        newPosition.x += teleportOffset.x;  // Set the X position
+        newPosition.y += teleportOffset.y;  // Set the Y position
         player.transform.localPosition = newPosition;  // Apply the new position
-        PlayerRoomTracker.SetPlayerRoomIndex(0);
+        PlayerRoomTracker.SetPlayerRoomIndex(roomIndexAfterTeleport);
     }
 
 }

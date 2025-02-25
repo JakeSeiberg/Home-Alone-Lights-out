@@ -30,6 +30,15 @@ public class BedScript : MonoBehaviour
             StartCoroutine(levelComplete());
         }
 
+        if (SceneManager.GetActiveScene().name == "Tutorial" && AreAllTrue(LeverTracker.leversSwitched) && playerInRange)
+        {
+            DisplayShift.shiftColliders[3] = true;
+        }
+        else
+        {
+            DisplayShift.shiftColliders[3] = false;
+        }
+
     }
     
     public static bool AreAllTrue(bool[] boolArray)
