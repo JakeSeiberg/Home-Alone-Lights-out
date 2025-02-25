@@ -8,8 +8,4 @@ public class PauseMenuController : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
-    public void testButton(){
-        Debug.Log("click");
-    }
-
 }
