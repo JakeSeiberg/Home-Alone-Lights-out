@@ -3,12 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenuController : MonoBehaviour
 {
-    void OnControls(){
 
+    public void OnMainMenu(){
+        SceneManager.LoadScene(0);
     }
 
-    void OnMainMenu(){
-        SceneManager.LoadScene(0);
+    public void testButton(){
+        Debug.Log("click");
     }
 
 }

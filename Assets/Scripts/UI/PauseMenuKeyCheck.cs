@@ -7,26 +7,36 @@ public class PauseMenuKeyCheck : MonoBehaviour
     // Update is called once per frame
 
     public GameObject pauseMenu;
-    private bool held;
+    private float time;
 
     void Start()
     {
-        held = false;
+        time = Time.time;
     }
     void Update()
     {
-        if(Input.GetKey(KeyCode.Escape) && !held && pauseMenu.activeSelf){
-            pauseMenu.SetActive(false);    
-            held = true; 
-        }
-        else if(Input.GetKey(KeyCode.Escape) && !held && !pauseMenu.activeSelf){
-            pauseMenu.SetActive(true);
-            held = true;
-        }
-        else{
-            held = false;
+        if(Time.time - time > 0.25){
+            menuCheck();
         }
 
+        if(pauseMenu.activeSelf){
+            Time.timeScale = 0;
+        }
+        else{
+            Time.timeScale = 1;
+        }
+        
+    }
+
+    void menuCheck(){
+        if(Input.GetKey(KeyCode.Escape) && pauseMenu.activeSelf){
+            pauseMenu.SetActive(false);    
+            time = Time.time;
+        }
+        else if(Input.GetKey(KeyCode.Escape) && !pauseMenu.activeSelf){
+            pauseMenu.SetActive(true);
+            time = Time.time;
+        }
         
     }
 
