@@ -7,15 +7,14 @@ public class EnemyAnimationController : MonoBehaviour
 
     void Start()
     {
-        animator = GetComponent<Animator>(); // Get Animator
-        spriteRenderer = GetComponent<SpriteRenderer>(); // Get SpriteRenderer
+        animator = GetComponent<Animator>(); 
+        spriteRenderer = GetComponent<SpriteRenderer>(); 
     }
 
     public void SetMoving(bool isMoving, float directionX)
     {
-        animator.SetBool("isMoving", isMoving); // Start or stop walking animation
+        animator.SetBool("isMoving", isMoving); 
 
-        // Flip sprite if moving left
         if (directionX < 0)
         {
             spriteRenderer.flipX = true;

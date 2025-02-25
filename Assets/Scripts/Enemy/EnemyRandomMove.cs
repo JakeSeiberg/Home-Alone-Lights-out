@@ -5,19 +5,18 @@ public class RandomEnemyMovement : MonoBehaviour
     public float speed = 2f;
     public float moveTime = 2f;
     
-    public float minX, maxX, minY, maxY; // Boundary limits
+    public float minX, maxX, minY, maxY; 
 
     private Vector2 movementDirection;
     private float moveTimer;
     private Rigidbody2D rb;
     private bool isIdle = false;
 
-    private EnemyAnimationController animController; // Reference to animation script
-    //had to comment out some things that wouldnt let me open unity, feel free to uncomment
+    private EnemyAnimationController animController; 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        animController = GetComponent<EnemyAnimationController>(); // Get animation script
+        animController = GetComponent<EnemyAnimationController>(); 
         PickNewDirection();
     }
 
@@ -30,7 +29,6 @@ public class RandomEnemyMovement : MonoBehaviour
             PickNewDirection();
         }
 
-        // Clamp position to stay within boundaries
         transform.position = new Vector2(
             Mathf.Clamp(transform.position.x, minX, maxX),
             Mathf.Clamp(transform.position.y, minY, maxY)
@@ -42,7 +40,7 @@ public class RandomEnemyMovement : MonoBehaviour
         if (!isIdle)
         {
             rb.linearVelocity = movementDirection * speed; 
-            animController.SetMoving(true, movementDirection.x); // Update animation
+            animController.SetMoving(true, movementDirection.x); 
         }
         else
         {
@@ -63,7 +61,7 @@ public class RandomEnemyMovement : MonoBehaviour
         }
 
         moveTimer = moveTime;
-        isIdle = false; // Make sure it is not stuck in idle state
+        isIdle = false; 
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -72,7 +70,7 @@ public class RandomEnemyMovement : MonoBehaviour
         {
             isIdle = true;
             rb.linearVelocity = Vector2.zero;
-            animController.SetMoving(false, 0); // Tell animator to go idle
+            animController.SetMoving(false, 0); 
 
             Invoke("PickNewDirection", 0.5f); 
         }
