@@ -3,6 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class LevelCompleteController : MonoBehaviour
 {
+    void Start()
+    {
+        AudioManager.Instance.playLevelComplete();
+    }
     public void OnMainMenu(){
         SceneManager.LoadScene(0);
     }

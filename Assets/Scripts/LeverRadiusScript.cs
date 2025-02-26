@@ -37,6 +37,7 @@ public class LeverRadiusScript : MonoBehaviour
         if (playerInRange && (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) && !isAnimating && !hasSwitched)
         {
             StartCoroutine(PlayLeverAnimation());
+            AudioManager.Instance.playLightSound();
         }
         //Debug.Log(string.Join(" ", leversSwitched));
 

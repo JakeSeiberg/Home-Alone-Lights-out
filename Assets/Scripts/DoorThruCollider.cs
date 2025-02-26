@@ -45,6 +45,7 @@ public class DoorThruCollider : MonoBehaviour
         if (playerInRange && (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)) && LeverTracker.leversSwitched[PlayerRoomTracker.playerCurrentRoomIndex] == true)
         {
             StartCoroutine(PlayDoorAnimation());
+            AudioManager.Instance.playDoorSound();
         }
         //Debug.Log(string.Join(" ", leversSwitched));
 

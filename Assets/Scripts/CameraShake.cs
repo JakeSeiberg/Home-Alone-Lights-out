@@ -47,6 +47,7 @@ public class CameraShake : MonoBehaviour
             noise.FrequencyGain = 1;
         }
         else if (closestMonster <= 2 && closestMonster > 1.5){
+            AudioManager.Instance.playMonsterSound();
             noise.FrequencyGain = 2;
         }
         else if (closestMonster <= 1.5 && closestMonster > 0){

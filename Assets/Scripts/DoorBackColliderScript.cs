@@ -39,6 +39,7 @@ public class DoorBackColliderScript : MonoBehaviour
         if (playerInRange && (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift)))
         {
             StartCoroutine(teleportDoor());
+            AudioManager.Instance.playDoorSound();
         }
         //Debug.Log(string.Join(" ", leversSwitched));
 

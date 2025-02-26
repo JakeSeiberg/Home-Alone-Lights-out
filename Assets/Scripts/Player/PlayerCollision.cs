@@ -16,6 +16,8 @@ public class PlayerCollision : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy")) // Make sure enemy has the correct tag
         {
             Debug.Log("Player hit the enemy! Restarting scene...");
+            AudioManager.Instance.stopSfx();
+            AudioManager.Instance.playDeathSound();
             RestartScene();
         }
     }
