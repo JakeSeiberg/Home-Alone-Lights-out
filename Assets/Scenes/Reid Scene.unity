@@ -2224,6 +2224,7 @@ GameObject:
   - component: {fileID: 206398155}
   - component: {fileID: 206398153}
   - component: {fileID: 206398154}
+  - component: {fileID: 206398156}
   m_Layer: 0
   m_Name: CinemachineCamera
   m_TagString: Untagged
@@ -2240,7 +2241,7 @@ Transform:
   m_GameObject: {fileID: 206398149}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.315381, y: -4.408629, z: 0.06927515}
+  m_LocalPosition: {x: 2.315381, y: -4.408629, z: -9.930725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2339,10 +2340,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 206398149}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36d1163fa822e8b418a0a603ec078d5c, type: 3}
+  m_Script: {fileID: 11500000, guid: b617507da6d07e749b7efdb34e1173e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damping: 0
+  TrackerSettings:
+    BindingMode: 4
+    PositionDamping: {x: 1, y: 1, z: 1}
+    AngularDampingMode: 0
+    RotationDamping: {x: 1, y: 1, z: 1}
+    QuaternionDamping: 1
+  FollowOffset: {x: 0, y: 0, z: -10}
+--- !u!114 &206398156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206398149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f453f694addf4275988fac205bc91968, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BoundingShape2D: {fileID: 0}
+  Damping: 0.5
+  SlowingDistance: 5
+  OversizeWindow:
+    Enabled: 0
+    MaxWindowSize: 0
+    Padding: 0
+  m_LegacyMaxWindowSize: -2
 --- !u!1 &258686329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2431,7 +2458,7 @@ Transform:
   m_GameObject: {fileID: 258686329}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.315381, y: -4.408629, z: 0.06927515}
+  m_LocalPosition: {x: 2.315381, y: -4.408629, z: -9.930725}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12472,10 +12499,8 @@ MonoBehaviour:
   - {fileID: -8941794205797320855, guid: 14379251a875744e8b74a14e4ce04967, type: 3}
   - {fileID: -4756335130094519594, guid: c35fc6ad74a64470ba115f0b31abc280, type: 3}
   - {fileID: -2828486259269243792, guid: da4a8c63c9a0f43908c8551db10aad60, type: 3}
-  frameDelay: 0.12
   roomIndexAfterTeleport: 0
-  teleportX: 0
-  teleportY: 0
+  door: {fileID: 0}
   player: {fileID: 1157272896}
 --- !u!58 &836755510
 CircleCollider2D:
@@ -14101,6 +14126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9022ee9cd316c46538536b2c2e1780b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  numberOfRooms: 0
 --- !u!4 &1351708227
 Transform:
   m_ObjectHideFlags: 0
@@ -14244,9 +14270,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1157272896}
-  teleportX: 0
-  teleportY: 0
   roomIndexAfterTeleport: 0
+  door: {fileID: 0}
 --- !u!58 &1447267337
 CircleCollider2D:
   m_ObjectHideFlags: 0

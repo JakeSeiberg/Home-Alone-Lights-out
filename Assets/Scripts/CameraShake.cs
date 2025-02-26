@@ -16,7 +16,6 @@ public class CameraShake : MonoBehaviour
     public float minNoise = 1;
     public float[] distance;
 
-
     void Start()
     {
         noise = vCam.GetComponentInChildren<CinemachineBasicMultiChannelPerlin>();
@@ -24,7 +23,7 @@ public class CameraShake : MonoBehaviour
 
     void Update()
     {   
-        ClosestMonster();
+        StartCoroutine(FindClosestMonster());
         CShake(distance.Min());
     }
 
@@ -44,7 +43,6 @@ public class CameraShake : MonoBehaviour
     }
 
     void CShake(float closestMonster){ 
-        //TODO: check monster tag for room location, if room lever is switched, remove from array
         if (closestMonster <= 3 && closestMonster > 2){
             noise.FrequencyGain = 1;
         }
@@ -57,5 +55,10 @@ public class CameraShake : MonoBehaviour
         else {
             noise.FrequencyGain = 0;
         }
+    }
+
+    IEnumerator FindClosestMonster(){
+        ClosestMonster();
+        yield return true;
     }
 }
