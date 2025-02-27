@@ -2,17 +2,9 @@ using UnityEngine;
 
 public class DisplaySpacebar : MonoBehaviour
 {
-    public GameObject player; // Reference to the player GameObject
-    public float offset = -5f; //
+    public GameObject player;
+    public float offset = -5f; 
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (player != null && PlayerRoomTracker.playerCurrentRoomIndex == 0 && !BedScript.AreAllTrue(LeverTracker.leversSwitched) && LeverTracker.leversSwitched[0] == false) 

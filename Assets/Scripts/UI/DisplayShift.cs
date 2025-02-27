@@ -3,11 +3,10 @@ using UnityEngine;
 public class DisplayShift : MonoBehaviour
 {
     public static bool[] shiftColliders = {false, false, false, false};
-    public float offset = -1.2f; //
+    public float offset = -1.2f; 
 
     public GameObject player;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         gameObject.GetComponent<SpriteRenderer>().enabled = false;
@@ -31,7 +30,6 @@ public class DisplayShift : MonoBehaviour
         {
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
         }
-        //print("On: " + shiftColliders[0] + " " + shiftColliders[1] + " " + shiftColliders[2] + " " + shiftColliders[3]);
     }
 
     void showShift()
