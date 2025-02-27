@@ -55,8 +55,12 @@ public class BedScript : MonoBehaviour
     {   
         yield return new WaitForSeconds(.5f); // Wait before changing
 
-        Debug.Log("Level Complete");
-        SceneManager.LoadScene(1);
+        if(MainMenuController.curLevel == 6){
+            SceneManager.LoadScene(7);
+        }
+        else{
+            SceneManager.LoadScene(1);
+        }
     }
 
 }
