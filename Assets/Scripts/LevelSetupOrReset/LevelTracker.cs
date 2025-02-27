@@ -7,7 +7,6 @@ public class LevelTracker : MonoBehaviour
     public GameObject player; // Reference to the player GameObject
     public static int level;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         if (SceneManager.GetActiveScene().name == "Tutorial")

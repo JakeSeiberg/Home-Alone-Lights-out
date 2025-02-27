@@ -1,12 +1,9 @@
-using System.Threading;
-using TMPro;
 using UnityEngine;
 
 public class LanternAnimationController : MonoBehaviour
 {
     private Animator lanternAnimator;
     private bool lanternOnCheck;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         lanternAnimator = GetComponent<Animator>();

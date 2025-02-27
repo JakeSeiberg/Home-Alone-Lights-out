@@ -1,7 +1,5 @@
-using System.Collections;
-using Unity.VisualScripting;
+
 using UnityEngine;
-using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
 public class Interaction : MonoBehaviour
@@ -9,13 +7,6 @@ public class Interaction : MonoBehaviour
     public Light2D lights;
     private bool maxLight = false;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void FixedUpdate()
     {
         if(Input.GetKey(KeyCode.Space) && LightTime.maxTime > 0){

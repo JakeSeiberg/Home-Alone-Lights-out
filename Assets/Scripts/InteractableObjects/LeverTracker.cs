@@ -7,7 +7,6 @@ public class LeverTracker : MonoBehaviour
     private bool yawnCheck;
     private float time;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         yawnCheck = false;
@@ -20,10 +19,8 @@ public class LeverTracker : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        //Debug.Log(string.Join(" ", leversSwitched));
         for (int i = 0; i < numberOfRooms; i++){
             if (!leversSwitched[i]){
                 yawnCheck = false;
