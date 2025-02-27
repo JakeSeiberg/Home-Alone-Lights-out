@@ -4243,7 +4243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b084ab79403419eaa855dd127c55a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 4
+  speed: 2.5
 --- !u!212 &762920010
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48159,8 +48159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelLights:
   - {fileID: 372982765}
-  - {fileID: 1485893552}
   - {fileID: 260000896}
+  - {fileID: 1485893552}
 --- !u!114 &2081461154
 MonoBehaviour:
   m_ObjectHideFlags: 0
