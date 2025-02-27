@@ -12,12 +12,6 @@ public class EnemyAutoMove : MonoBehaviour
 
     void Start()
     {
-        if (points.Length == 0)
-        {
-            Debug.LogError("No points assigned to EnemyAutoMove script!");
-            return;
-        }
-
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 

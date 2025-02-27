@@ -16,12 +16,6 @@ public class DashingEnemy : MonoBehaviour
 
     void Start()
     {
-        if (points.Length == 0)
-        {
-            Debug.LogError("No points assigned to DashingEnemy script!");
-            return;
-        }
-
         spriteRenderer = GetComponent<SpriteRenderer>();
         transform.position = points[0].position; 
         StartCoroutine(DashRoutine());
