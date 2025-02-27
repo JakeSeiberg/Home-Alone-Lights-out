@@ -2882,6 +2882,9 @@ MonoBehaviour:
   menuClickSfx:
   - name: click
     clip: {fileID: 8300000, guid: dd7fabac9eb6f498b8225c7b03f6cbcc, type: 3}
+  menuLockSfx:
+  - name: lock
+    clip: {fileID: 8300000, guid: 1a427ea06c0cf4309a424992c3f9ac4b, type: 3}
   musicSource: {fileID: 849487059}
   sfxSource: {fileID: 905610659}
 --- !u!4 &1268798807

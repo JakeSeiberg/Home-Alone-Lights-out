@@ -4,7 +4,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
-    public Sound[] musicSounds, footstepSfx, deathSfx, doorSfx, lightSfx, monsterSfx, yawnSfx, levelCompleteSfx, menuClickSfx;
+    public Sound[] musicSounds, footstepSfx, deathSfx, doorSfx, lightSfx, monsterSfx, yawnSfx, levelCompleteSfx, menuClickSfx, menuLockSfx;
     public AudioSource musicSource, sfxSource;
 
     private void Awake()
@@ -69,6 +69,16 @@ public class AudioManager : MonoBehaviour
 
         Sound s = deathSfx[idx];
 
+        if(s == null){
+            Debug.Log("Sound does not exist");
+        }
+        else{
+            sfxSource.PlayOneShot(s.clip);
+        }
+    }
+
+    public void playMenuLockedLevel(){
+        Sound s = menuLockSfx[0];
         if(s == null){
             Debug.Log("Sound does not exist");
         }
