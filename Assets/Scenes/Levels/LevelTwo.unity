@@ -48159,8 +48159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelLights:
   - {fileID: 372982765}
-  - {fileID: 1485893552}
   - {fileID: 260000896}
+  - {fileID: 1485893552}
 --- !u!114 &2081461154
 MonoBehaviour:
   m_ObjectHideFlags: 0
