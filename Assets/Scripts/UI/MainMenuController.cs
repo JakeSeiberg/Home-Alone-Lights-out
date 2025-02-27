@@ -30,6 +30,9 @@ public class MainMenuController : MonoBehaviour
             AudioManager.Instance.playMenuClick();
             SceneManager.LoadScene(5);
         }
+        else{
+            AudioManager.Instance.playMenuLockedLevel();
+        }
     }
 
     public void OnLevelThree(){
@@ -38,6 +41,9 @@ public class MainMenuController : MonoBehaviour
             curLevel = 6;
             AudioManager.Instance.playMenuClick();
             SceneManager.LoadScene(6);
+        }
+        else{
+            AudioManager.Instance.playMenuLockedLevel();
         }
         
     }
