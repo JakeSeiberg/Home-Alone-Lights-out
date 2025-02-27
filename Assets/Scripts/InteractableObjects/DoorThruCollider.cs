@@ -4,9 +4,9 @@ using System.Collections;
 public class DoorThruCollider : MonoBehaviour
 {
 
-    public SpriteRenderer doorSpriteRenderer; // Assign in Inspector
-    public Sprite[] doorSprites; // Assign multiple sprites in Inspector
-    private float frameDelay = 0.12f; // Time between frames
+    public SpriteRenderer doorSpriteRenderer;
+    public Sprite[] doorSprites; 
+    private float frameDelay = 0.12f; 
     public int roomIndexAfterTeleport;
 
     private Vector2 teleportOffset;
@@ -26,7 +26,7 @@ public class DoorThruCollider : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) // Ensure the player has the "Player" tag
+        if (other.CompareTag("Player"))
         {
             playerInRange = true;
         }
@@ -47,7 +47,6 @@ public class DoorThruCollider : MonoBehaviour
             StartCoroutine(PlayDoorAnimation());
             AudioManager.Instance.playDoorSound();
         }
-        //Debug.Log(string.Join(" ", leversSwitched));
 
     }
     
@@ -58,19 +57,19 @@ public class DoorThruCollider : MonoBehaviour
             hasOpened = true;
             for (int i = 0; i < doorSprites.Length; i++)
             {
-                doorSpriteRenderer.sprite = doorSprites[i]; // Change sprite
-                yield return new WaitForSeconds(frameDelay); // Wait before changing
+                doorSpriteRenderer.sprite = doorSprites[i]; 
+                yield return new WaitForSeconds(frameDelay); 
             }
 
         }
         
-        yield return new WaitForSeconds(.5f); // Wait before changing
+        yield return new WaitForSeconds(.5f);
 
         
         Vector3 newPosition = door.transform.position;
-        newPosition.x += teleportOffset.x;  // Set the X position
-        newPosition.y += teleportOffset.y;  // Set the Y position
-        player.transform.localPosition = newPosition;  // Apply the new position
+        newPosition.x += teleportOffset.x; 
+        newPosition.y += teleportOffset.y;  
+        player.transform.localPosition = newPosition; 
         PlayerRoomTracker.SetPlayerRoomIndex(roomIndexAfterTeleport);
 
     }

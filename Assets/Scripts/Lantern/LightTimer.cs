@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.AI;
 
 
 public class LightTime : MonoBehaviour
@@ -7,17 +6,15 @@ public class LightTime : MonoBehaviour
     public static float maxTime = 14f;
     private SpriteRenderer _lightSpriteRenderer;
     public Sprite[] timerSprites;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         _lightSpriteRenderer = GetComponent<SpriteRenderer>();
         maxTime = 14f;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (!BedScript.AreAllTrue(LeverTracker.leversSwitched)) //if all of the lights aren't on... if they are all on, lantern disappears
+        if (!BedScript.AreAllTrue(LeverTracker.leversSwitched))
         {
             if (maxTime > 12 && maxTime < 14){
                 _lightSpriteRenderer.sprite = timerSprites[0];
