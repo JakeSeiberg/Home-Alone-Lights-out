@@ -55,7 +55,7 @@ public class BedScript : MonoBehaviour
     {   
 
         yield return new WaitForSeconds(.5f); // Wait before changing
-        LevelsCompleted.completeLevel(LevelsCompleted.currentLevel);
+        LevelsCompleted.levelsCompleted[MainMenuController.curLevel] = true;
 
         if(MainMenuController.curLevel == 6){
             SceneManager.LoadScene(7);
