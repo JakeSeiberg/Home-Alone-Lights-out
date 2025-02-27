@@ -7,9 +7,9 @@ public class LeverRadiusScript : MonoBehaviour
 
     public int leverIndex;
 
-    public SpriteRenderer leverSpriteRenderer; // Assign in Inspector
-    public Sprite[] leverSprites; // Assign multiple sprites in Inspector
-    public float frameDelay = 0.08f; // Time between frames
+    public SpriteRenderer leverSpriteRenderer; 
+    public Sprite[] leverSprites; 
+    public float frameDelay = 0.08f; 
 
     private bool playerInRange = false;
     private bool isAnimating = false;
@@ -18,7 +18,7 @@ public class LeverRadiusScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) // Ensure the player has the "Player" tag
+        if (other.CompareTag("Player")) 
         {
             playerInRange = true;
         }
@@ -39,23 +39,22 @@ public class LeverRadiusScript : MonoBehaviour
             StartCoroutine(PlayLeverAnimation());
             AudioManager.Instance.playLightSound();
         }
-        //Debug.Log(string.Join(" ", leversSwitched));
 
     }
 
     IEnumerator PlayLeverAnimation()
     {
-        isAnimating = true; // Prevent retriggering animation
+        isAnimating = true;
         hasSwitched = true;
         LeverTracker.leversSwitched[leverIndex] = true;
 
         for (int i = 0; i < leverSprites.Length; i++)
         {
-            leverSpriteRenderer.sprite = leverSprites[i]; // Change sprite
-            yield return new WaitForSeconds(frameDelay); // Wait before changing
+            leverSpriteRenderer.sprite = leverSprites[i];
+            yield return new WaitForSeconds(frameDelay); 
         }
 
-        isAnimating = false; // Allow re-triggering
+        isAnimating = false;
     }
 
 }

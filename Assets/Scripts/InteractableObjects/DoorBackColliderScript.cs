@@ -20,7 +20,7 @@ public class DoorBackColliderScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player")) // Ensure the player has the "Player" tag
+        if (other.CompareTag("Player"))
         {
             playerInRange = true;
         }
@@ -41,19 +41,18 @@ public class DoorBackColliderScript : MonoBehaviour
             StartCoroutine(teleportDoor());
             AudioManager.Instance.playDoorSound();
         }
-        //Debug.Log(string.Join(" ", leversSwitched));
 
     }
 
     IEnumerator teleportDoor()
     {   
-        yield return new WaitForSeconds(.5f); // Wait before changing
+        yield return new WaitForSeconds(.5f); 
 
         
         Vector3 newPosition = door.transform.position;
-        newPosition.x += teleportOffset.x;  // Set the X position
-        newPosition.y += teleportOffset.y;  // Set the Y position
-        player.transform.localPosition = newPosition;  // Apply the new position
+        newPosition.x += teleportOffset.x; 
+        newPosition.y += teleportOffset.y; 
+        player.transform.localPosition = newPosition; 
         PlayerRoomTracker.SetPlayerRoomIndex(roomIndexAfterTeleport);
     }
 
