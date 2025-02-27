@@ -3905,8 +3905,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.1967001, y: 1.8248999, z: 0}
-    m_Extent: {x: 9.2308, y: 7.7642, z: 0}
+    m_Center: {x: 0.0475502, y: 1.6260498, z: 0}
+    m_Extent: {x: 9.08165, y: 7.5653496, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3918,9 +3918,9 @@ MonoBehaviour:
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -5.22361, y: -5.438322, z: 0}
-  - {x: 8.927353, y: -5.3846445, z: 0}
-  - {x: 8.766327, y: 9.088386, z: 0}
-  - {x: -8.497925, y: 9.088386, z: 0}
+  - {x: 8.629074, y: -5.4343576, z: 0}
+  - {x: 8.517761, y: 8.690678, z: 0}
+  - {x: -8.497925, y: 8.640963, z: 0}
   - {x: -8.534706, y: 3.0461931, z: 0}
   - {x: -5.206711, y: 3.0461931, z: 0}
 --- !u!1 &567641113
@@ -32509,8 +32509,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.88594985, y: 1.8246999, z: 0}
-    m_Extent: {x: 7.2001495, y: 12.2729, z: 0}
+    m_Center: {x: -0.8605499, y: 1.6259999, z: 0}
+    m_Extent: {x: 7.17455, y: 12.0742, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -32523,8 +32523,9 @@ MonoBehaviour:
   m_ShapePath:
   - {x: -7.531746, y: -9.947224, z: 0}
   - {x: 5.814064, y: -9.893547, z: 0}
-  - {x: 5.7603836, y: 13.489933, z: 0}
-  - {x: -7.5854187, y: 13.597286, z: 0}
+  - {x: 5.3949203, y: 3.9539008, z: 0}
+  - {x: 5.462097, y: 13.141939, z: 0}
+  - {x: -7.5357056, y: 13.199577, z: 0}
 --- !u!1 &1392551342
 GameObject:
   m_ObjectHideFlags: 0
@@ -39041,8 +39042,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.21144962, y: -0.1344502, z: 0}
-    m_Extent: {x: 9.20955, y: 7.3077497, z: 0}
+    m_Center: {x: -0.38604975, y: -0.33424997, z: 0}
+    m_Extent: {x: 9.03495, y: 7.15595, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -39054,9 +39055,9 @@ MonoBehaviour:
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -2.539734, y: -6.94129, z: 0}
-  - {x: 8.497925, y: -6.941288, z: 0}
-  - {x: 8.497925, y: 6.6192226, z: 0}
-  - {x: -8.820007, y: 6.672903, z: 0}
+  - {x: 8.050507, y: -6.991001, z: 0}
+  - {x: 8.149933, y: 6.32094, z: 0}
+  - {x: -8.86972, y: 6.225481, z: 0}
   - {x: -8.921646, y: -6.485214, z: 0}
   - {x: -2.5697632, y: -6.464388, z: 0}
 --- !u!1 &1464126135
