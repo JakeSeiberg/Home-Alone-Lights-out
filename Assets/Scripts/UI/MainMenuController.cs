@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 public class MainMenuController : MonoBehaviour
 {
     static public int curLevel;
-
+    static public bool[] levelsCompleted = {false, false, false, false, false, false, false};
+    
     public void OnQuit(){
         Application.Quit();     
     }
@@ -23,15 +24,22 @@ public class MainMenuController : MonoBehaviour
 
     public void OnLevelTwo()
     {
-        curLevel = 5;
-        AudioManager.Instance.playMenuClick();
-        SceneManager.LoadScene(5);
+        if (LevelsCompleted.levelsCompleted[4])
+        {
+            curLevel = 5;
+            AudioManager.Instance.playMenuClick();
+            SceneManager.LoadScene(5);
+        }
     }
 
     public void OnLevelThree(){
-        curLevel = 6;
-        AudioManager.Instance.playMenuClick();
-        SceneManager.LoadScene(6);
+        if (LevelsCompleted.levelsCompleted[5])
+        {
+            curLevel = 6;
+            AudioManager.Instance.playMenuClick();
+            SceneManager.LoadScene(6);
+        }
+        
     }
 
 }
