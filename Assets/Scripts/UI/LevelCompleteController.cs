@@ -8,6 +8,7 @@ public class LevelCompleteController : MonoBehaviour
         AudioManager.Instance.playLevelComplete();
     }
     public void OnMainMenu(){
+        AudioManager.Instance.playMenuClick();
         SceneManager.LoadScene(0);
     }
 
@@ -17,6 +18,7 @@ public class LevelCompleteController : MonoBehaviour
     }
 
     public void OnNextLevel(){
+        AudioManager.Instance.playMenuClick();
         MainMenuController.curLevel++;
         SceneManager.LoadScene(MainMenuController.curLevel);
     }

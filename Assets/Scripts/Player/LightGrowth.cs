@@ -23,13 +23,13 @@ public class Interaction : MonoBehaviour
             if (lights.pointLightOuterRadius >= 2.7){
                 maxLight = true;
             }
+            else if (lights.pointLightOuterRadius <= 2.6){
+                maxLight = false;
+            }
             LightTime.LightConsumed();
         }
         else if (lights.pointLightOuterRadius > 1.6){
             LightDown();
-        }
-        else if (lights.pointLightOuterRadius <= 1.6){
-            maxLight = false;
         }
         if (BedScript.AreAllTrue(LeverTracker.leversSwitched)){
             lights.intensity = 0;
