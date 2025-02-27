@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
-    public Sound[] musicSounds, footstepSfx, deathSfx, doorSfx, lightSfx, monsterSfx, yawnSfx, levelCompleteSfx;
+    public Sound[] musicSounds, footstepSfx, deathSfx, doorSfx, lightSfx, monsterSfx, yawnSfx, levelCompleteSfx, menuClickSfx;
     public AudioSource musicSource, sfxSource;
 
     private void Awake()
@@ -41,6 +41,16 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    public void playMenuClick(){
+        Sound s = menuClickSfx[0];
+
+        if(s == null){
+            Debug.Log("Sound does not exist");
+        }
+        else{
+            sfxSource.PlayOneShot(s.clip);
+        }
+    }
     public void playFootstepSound(){
         int idx = UnityEngine.Random.Range(0,2);
 
