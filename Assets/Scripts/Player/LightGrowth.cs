@@ -42,8 +42,8 @@ public class Interaction : MonoBehaviour
             lights.pointLightOuterRadius += 0;
         }
         else{
-            lights.pointLightInnerRadius += 0.006f;
-            lights.pointLightOuterRadius += 0.006f;
+            lights.pointLightInnerRadius += 0.06f;
+            lights.pointLightOuterRadius += 0.06f;
         }
 
     }
