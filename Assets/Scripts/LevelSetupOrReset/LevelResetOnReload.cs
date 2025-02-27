@@ -11,9 +11,4 @@ public class LevelResetOnReload : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
