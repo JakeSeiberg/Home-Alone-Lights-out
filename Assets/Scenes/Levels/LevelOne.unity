@@ -11021,6 +11021,8 @@ MonoBehaviour:
   levelCompleteSfx:
   - name: levelComplete
     clip: {fileID: 8300000, guid: d150c2f54c58449edbf79116731ba69a, type: 3}
+  menuClickSfx: []
+  menuLockSfx: []
   musicSource: {fileID: 1377303242}
   sfxSource: {fileID: 825877836}
 --- !u!4 &1307330390
@@ -11032,13 +11034,13 @@ Transform:
   m_GameObject: {fileID: 1307330388}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07133539, y: -2.2081032, z: 0.018002372}
+  m_LocalPosition: {x: -0.036716387, y: -0.9194741, z: -0.051272776}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1377303243}
   - {fileID: 825877837}
-  m_Father: {fileID: 1973386301}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1331707976
 GameObject:
@@ -47216,7 +47218,6 @@ Transform:
   - {fileID: 333235841}
   - {fileID: 1453899152}
   - {fileID: 561478000}
-  - {fileID: 1307330390}
   - {fileID: 1158000793}
   - {fileID: 1987016464}
   - {fileID: 982813758}
@@ -47641,3 +47642,4 @@ SceneRoots:
   - {fileID: 1884504033}
   - {fileID: 536857109}
   - {fileID: 1973386301}
+  - {fileID: 1307330390}
